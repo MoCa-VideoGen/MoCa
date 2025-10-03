@@ -1,0 +1,44 @@
+[    
+
+    {
+        "clip_name": "f7b6889ed4c6075e",
+        "clip_path": "f7b6889ed4c6075e.mp4",
+        "pose_file": "f7b6889ed4c6075e.txt",
+        "caption": "a house with a basketball hoop in front of it."
+    },
+    {
+        "clip_name": "f774bf01fa079987",
+        "clip_path": "f774bf01fa079987.mp4",
+        "pose_file": "f774bf01fa079987.txt",
+        "caption": "A cyclist riding between city buildings."
+    },
+    {
+        "clip_name": "f76e22ad948f8218",
+        "clip_path": "f76e22ad948f8218.mp4",
+        "pose_file": "f76e22ad948f8218.txt",
+        "caption": "A street viewed from a window, with window frame in foreground."
+    },
+    {
+        "clip_name": "f74139ac48f19b3c",
+        "clip_path": "f74139ac48f19b3c.mp4",
+        "pose_file": "f74139ac48f19b3c.txt",
+        "caption": "A cat on a fire escape, in front of a window."
+    },
+    {
+        "clip_name": "f6f46314516a7f3b",
+        "clip_path": "f6f46314516a7f3b.mp4",
+        "pose_file": "f6f46314516a7f3b.txt",
+        "caption": "A bridge through dense fog."
+    },
+    {
+        "clip_name": "f6f1a6c3444ce705",
+        "clip_path": "f6f1a6c3444ce705.mp4",
+        "pose_file": "f6f1a6c3444ce705.txt",
+        "caption": "A train coming out of a tunnel."
+    },
+    {
+        "clip_name": "f6696c05fbf5a137",
+        "clip_path": "f6696c05fbf5a137.mp4",
+        "pose_file": "f6696c05fbf5a137.txt",
+        "caption": "A kayak passing under a wooden bridge."
+    }]

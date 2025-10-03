@@ -1,0 +1,43 @@
+[
+    {
+        "clip_name": "f20f939c45d67d35",
+        "clip_path": "f20f939c45d67d35.mp4",
+        "pose_file": "f20f939c45d67d35.txt",
+        "caption": "A diver entering the water."
+    },
+    {
+        "clip_name": "f20a49fc09b9ee6e",
+        "clip_path": "f20a49fc09b9ee6e.mp4",
+        "pose_file": "f20a49fc09b9ee6e.txt",
+        "caption": "A person walking through a waterfall."
+    },
+    {
+        "clip_name": "f1ae3f5c04336f9a",
+        "clip_path": "f1ae3f5c04336f9a.mp4",
+        "pose_file": "f1ae3f5c04336f9a.txt",
+        "caption": "A boat walking through a waterfall."
+    },
+    {
+        "clip_name": "f120f74e540d724c",
+        "clip_path": "f120f74e540d724c.mp4",
+        "pose_file": "f120f74e540d724c.txt",
+        "caption":"A boat walking through a waterfall."
+    },
+    {
+        "clip_name": "f11be6d41f8b36fb",
+        "clip_path": "f11be6d41f8b36fb.mp4",
+        "pose_file": "f11be6d41f8b36fb.txt",
+        "caption": "Layers of mountains fading into the distance."
+    },
+    {
+        "clip_name": "f0f7ef04f763da64",
+        "clip_path": "f0f7ef04f763da64.mp4",
+        "pose_file": "f0f7ef04f763da64.txt",
+        "caption": "Foreground flowers, a path, and a distant house."
+    },
+    {
+        "clip_name": "f08bb76e14a2fff3",
+        "clip_path": "f08bb76e14a2fff3.mp4",
+        "pose_file": "f08bb76e14a2fff3.txt",
+        "caption": "Foreground flowers, a path, and a distant house."
+    }]

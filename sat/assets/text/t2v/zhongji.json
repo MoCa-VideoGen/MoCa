@@ -1,0 +1,1802 @@
+[
+    {
+        "clip_name": "20e7a3651ec30386",
+        "clip_path": "20e7a3651ec30386.mp4",
+        "pose_file": "20e7a3651ec30386.txt",
+        "caption": "a large house in the middle of a grassy field."
+    },
+    {
+        "clip_name": "2d4e81e66ce80039",
+        "clip_path": "2d4e81e66ce80039.mp4",
+        "pose_file": "2d4e81e66ce80039.txt",
+        "caption": "a house with a basketball hoop in front of it."
+    },
+    {
+        "clip_name": "d7b19e50877dbff6",
+        "clip_path": "d7b19e50877dbff6.mp4",
+        "pose_file": "d7b19e50877dbff6.txt",
+        "caption": "a wooden staircase in a home with purple walls."
+    },
+    {
+        "clip_name": "f43b62c5050d6789",
+        "clip_path": "f43b62c5050d6789.mp4",
+        "pose_file": "f43b62c5050d6789.txt",
+        "caption": "a bedroom with blue walls and hardwood floors."
+    },
+    {
+        "clip_name": "7233c56121c0e59d",
+        "clip_path": "7233c56121c0e59d.mp4",
+        "pose_file": "7233c56121c0e59d.txt",
+        "caption": "a living room filled with furniture and hardwood floors."
+    },
+    {
+        "clip_name": "14e3fec07ba502d7",
+        "clip_path": "14e3fec07ba502d7.mp4",
+        "pose_file": "14e3fec07ba502d7.txt",
+        "caption": "a kitchen with wooden cabinets and black appliances."
+    },
+    {
+        "clip_name": "d886b5dfef09feb2",
+        "clip_path": "d886b5dfef09feb2.mp4",
+        "pose_file": "d886b5dfef09feb2.txt",
+        "caption": "a long dining room table with chairs and a rug."
+    },
+    {
+        "clip_name": "c45eb2dec21c4cfc",
+        "clip_path": "c45eb2dec21c4cfc.mp4",
+        "pose_file": "c45eb2dec21c4cfc.txt",
+        "caption": "a room with a bed, desk and television."
+    },
+    {
+        "clip_name": "e4346b375acea025",
+        "clip_path": "e4346b375acea025.mp4",
+        "pose_file": "e4346b375acea025.txt",
+        "caption": "an aerial view of a suburban neighborhood."
+    },
+    {
+        "clip_name": "024152256b6bcac7",
+        "clip_path": "024152256b6bcac7.mp4",
+        "pose_file": "024152256b6bcac7.txt",
+        "caption": "a kitchen with white appliances and wooden cabinets."
+    },
+    {
+        "clip_name": "d5a254717822d28b",
+        "clip_path": "d5a254717822d28b.mp4",
+        "pose_file": "d5a254717822d28b.txt",
+        "caption": "a living room filled with furniture and a fireplace."
+    },
+    {
+        "clip_name": "0f540553fc30f16d",
+        "clip_path": "0f540553fc30f16d.mp4",
+        "pose_file": "0f540553fc30f16d.txt",
+        "caption": "a bathroom with a walk in shower and two sinks."
+    },
+    {
+        "clip_name": "61b6485ad242bf8a",
+        "clip_path": "61b6485ad242bf8a.mp4",
+        "pose_file": "61b6485ad242bf8a.txt",
+        "caption": "a laundry room with a washer and dryer in it."
+    },
+    {
+        "clip_name": "ee336a4898a32ded",
+        "clip_path": "ee336a4898a32ded.mp4",
+        "pose_file": "ee336a4898a32ded.txt",
+        "caption": "a bathroom with two sinks and a window."
+    },
+    {
+        "clip_name": "e42d49970a73764c",
+        "clip_path": "e42d49970a73764c.mp4",
+        "pose_file": "e42d49970a73764c.txt",
+        "caption": "a bedroom with blue walls and a white bed."
+    },
+    {
+        "clip_name": "03482c3bd66de195",
+        "clip_path": "03482c3bd66de195.mp4",
+        "pose_file": "03482c3bd66de195.txt",
+        "caption": "a kitchen and dining room with a table and chairs."
+    },
+    {
+        "clip_name": "8328ae4d746fe8f6",
+        "clip_path": "8328ae4d746fe8f6.mp4",
+        "pose_file": "8328ae4d746fe8f6.txt",
+        "caption": "a dining room with a wooden table and chairs."
+    },
+    {
+        "clip_name": "46b2a13f6ab0be05",
+        "clip_path": "46b2a13f6ab0be05.mp4",
+        "pose_file": "46b2a13f6ab0be05.txt",
+        "caption": "a hallway with a spiral staircase and hardwood floors."
+    },
+    {
+        "clip_name": "fe42422857682683",
+        "clip_path": "fe42422857682683.mp4",
+        "pose_file": "fe42422857682683.txt",
+        "caption": "a living room with a couch, chairs, and lamps."
+    },
+    {
+        "clip_name": "72bd3214b39e7146",
+        "clip_path": "72bd3214b39e7146.mp4",
+        "pose_file": "72bd3214b39e7146.txt",
+        "caption": "a view of a kitchen and dining room from a sliding glass door."
+    },
+    {
+        "clip_name": "1ca4db19711258a0",
+        "clip_path": "1ca4db19711258a0.mp4",
+        "pose_file": "1ca4db19711258a0.txt",
+        "caption": "a bedroom with a neatly made bed and a desk."
+    },
+    {
+        "clip_name": "4bc7ca44cc62b8b1",
+        "clip_path": "4bc7ca44cc62b8b1.mp4",
+        "pose_file": "4bc7ca44cc62b8b1.txt",
+        "caption": "a living room with hard wood floors and a couch."
+    },
+    {
+        "clip_name": "32a2c04fd8321bbb",
+        "clip_path": "32a2c04fd8321bbb.mp4",
+        "pose_file": "32a2c04fd8321bbb.txt",
+        "caption": "a staircase in a home with carpet on the steps."
+    },
+    {
+        "clip_name": "2c02607ae436a9fb",
+        "clip_path": "2c02607ae436a9fb.mp4",
+        "pose_file": "2c02607ae436a9fb.txt",
+        "caption": "an aerial view of a suburban neighborhood."
+    },
+    {
+        "clip_name": "9981436f1448c131",
+        "clip_path": "9981436f1448c131.mp4",
+        "pose_file": "9981436f1448c131.txt",
+        "caption": "a bedroom with a bed, dresser and mirror."
+    },
+    {
+        "clip_name": "57942df316f9d05a",
+        "clip_path": "57942df316f9d05a.mp4",
+        "pose_file": "57942df316f9d05a.txt",
+        "caption": "a bedroom with a bed, dresser and chest of drawers."
+    },
+    {
+        "clip_name": "0d4de33c6888a754",
+        "clip_path": "0d4de33c6888a754.mp4",
+        "pose_file": "0d4de33c6888a754.txt",
+        "caption": "a bathroom with two sinks and a large mirror."
+    },
+    {
+        "clip_name": "cc61d422a49ca86b",
+        "clip_path": "cc61d422a49ca86b.mp4",
+        "pose_file": "cc61d422a49ca86b.txt",
+        "caption": "a room with a desk and a chair in it."
+    },
+    {
+        "clip_name": "87bbc64b6844b3b9",
+        "clip_path": "87bbc64b6844b3b9.mp4",
+        "pose_file": "87bbc64b6844b3b9.txt",
+        "caption": "a lounge chair sitting on top of a balcony overlooking a city."
+    },
+    {
+        "clip_name": "9d022c4ec370112a",
+        "clip_path": "9d022c4ec370112a.mp4",
+        "pose_file": "9d022c4ec370112a.txt",
+        "caption": "an outdoor lounge area with a fire pit overlooking the city."
+    },
+    {
+        "clip_name": "371c9182ffd46ce3",
+        "clip_path": "371c9182ffd46ce3.mp4",
+        "pose_file": "371c9182ffd46ce3.txt",
+        "caption": "a living room with a skylight in the ceiling."
+    },
+    {
+        "clip_name": "6229ccd818f7ceb5",
+        "clip_path": "6229ccd818f7ceb5.mp4",
+        "pose_file": "6229ccd818f7ceb5.txt",
+        "caption": "a living room filled with furniture and a television."
+    },
+    {
+        "clip_name": "7c229743606cb149",
+        "clip_path": "7c229743606cb149.mp4",
+        "pose_file": "7c229743606cb149.txt",
+        "caption": "a living room with a fireplace and bookshelves."
+    },
+    {
+        "clip_name": "6bca63f130f50373",
+        "clip_path": "6bca63f130f50373.mp4",
+        "pose_file": "6bca63f130f50373.txt",
+        "caption": "a kitchen with a refrigerator, stove, sink and cabinets."
+    },
+    {
+        "clip_name": "1b5d1afe8e59aa22",
+        "clip_path": "1b5d1afe8e59aa22.mp4",
+        "pose_file": "1b5d1afe8e59aa22.txt",
+        "caption": "a living room with a chair and a lamp."
+    },
+    {
+        "clip_name": "77ec23bd27f136cd",
+        "clip_path": "77ec23bd27f136cd.mp4",
+        "pose_file": "77ec23bd27f136cd.txt",
+        "caption": "a bathroom with a picture on the wall and a toilet."
+    },
+    {
+        "clip_name": "be4ecfc1baabdf63",
+        "clip_path": "be4ecfc1baabdf63.mp4",
+        "pose_file": "be4ecfc1baabdf63.txt",
+        "caption": "a dining room table with a vase of flowers on it."
+    },
+    {
+        "clip_name": "3d846835a8686668",
+        "clip_path": "3d846835a8686668.mp4",
+        "pose_file": "3d846835a8686668.txt",
+        "caption": "a bed with a blanket on it in a bedroom."
+    },
+    {
+        "clip_name": "a7e25cf8943f6661",
+        "clip_path": "a7e25cf8943f6661.mp4",
+        "pose_file": "a7e25cf8943f6661.txt",
+        "caption": "a cluttered room filled with boxes and other items."
+    },
+    {
+        "clip_name": "345b2758067d0c1f",
+        "clip_path": "345b2758067d0c1f.mp4",
+        "pose_file": "345b2758067d0c1f.txt",
+        "caption": "a view of a room with a desk and shelves."
+    },
+    {
+        "clip_name": "0872031bf89a808a",
+        "clip_path": "0872031bf89a808a.mp4",
+        "pose_file": "0872031bf89a808a.txt",
+        "caption": "the front porch of a home with a sign that says 1777."
+    },
+    {
+        "clip_name": "d148537296a4925e",
+        "clip_path": "d148537296a4925e.mp4",
+        "pose_file": "d148537296a4925e.txt",
+        "caption": "an aerial view of a lake surrounded by houses."
+    },
+    {
+        "clip_name": "af5edc56cc39ad23",
+        "clip_path": "af5edc56cc39ad23.mp4",
+        "pose_file": "af5edc56cc39ad23.txt",
+        "caption": "a bathroom with two sinks and a large mirror."
+    },
+    {
+        "clip_name": "3e920cc4dee08efe",
+        "clip_path": "3e920cc4dee08efe.mp4",
+        "pose_file": "3e920cc4dee08efe.txt",
+        "caption": "a living room with an orange wall and a ceiling fan."
+    },
+    {
+        "clip_name": "b4d751f16c3826d8",
+        "clip_path": "b4d751f16c3826d8.mp4",
+        "pose_file": "b4d751f16c3826d8.txt",
+        "caption": "a kitchen with a center island and chandeliers hanging from the ceiling."
+    },
+    {
+        "clip_name": "61c1653668df1b7b",
+        "clip_path": "61c1653668df1b7b.mp4",
+        "pose_file": "61c1653668df1b7b.txt",
+        "caption": "a kitchen with granite counter tops and stainless steel appliances."
+    },
+    {
+        "clip_name": "3280ab6917df576f",
+        "clip_path": "3280ab6917df576f.mp4",
+        "pose_file": "3280ab6917df576f.txt",
+        "caption": "a bedroom with a glass wall and a bed."
+    },
+    {
+        "clip_name": "aadc1e2dc74fd644",
+        "clip_path": "aadc1e2dc74fd644.mp4",
+        "pose_file": "aadc1e2dc74fd644.txt",
+        "caption": "a screened in porch with a view of a green field."
+    },
+    {
+        "clip_name": "146763442bb9c38f",
+        "clip_path": "146763442bb9c38f.mp4",
+        "pose_file": "146763442bb9c38f.txt",
+        "caption": "a pond in the middle of a lush green field."
+    },
+    {
+        "clip_name": "e2e03491fca937f3",
+        "clip_path": "e2e03491fca937f3.mp4",
+        "pose_file": "e2e03491fca937f3.txt",
+        "caption": "a dining room table with chairs and a chandelier."
+    },
+    {
+        "clip_name": "e1b6bcafe19a2b1c",
+        "clip_path": "e1b6bcafe19a2b1c.mp4",
+        "pose_file": "e1b6bcafe19a2b1c.txt",
+        "caption": "a screened porch with wicker furniture and a view of the golf course."
+    },
+    {
+        "clip_name": "fd204026d09b3585",
+        "clip_path": "fd204026d09b3585.mp4",
+        "pose_file": "fd204026d09b3585.txt",
+        "caption": "a living room with sliding glass doors leading to a balcony."
+    },
+    {
+        "clip_name": "cf5bce96562e21be",
+        "clip_path": "cf5bce96562e21be.mp4",
+        "pose_file": "cf5bce96562e21be.txt",
+        "caption": "a view of a kitchen and living room in a house."
+    },
+    {
+        "clip_name": "a4b84e32290ce8c0",
+        "clip_path": "a4b84e32290ce8c0.mp4",
+        "pose_file": "a4b84e32290ce8c0.txt",
+        "caption": "an aerial view of a house on the edge of a lake."
+    },
+    {
+        "clip_name": "c8de87bb03e6ba4c",
+        "clip_path": "c8de87bb03e6ba4c.mp4",
+        "pose_file": "c8de87bb03e6ba4c.txt",
+        "caption": "a living room with a couch and a refrigerator."
+    },
+    {
+        "clip_name": "f6f1a6c3444ce705",
+        "clip_path": "f6f1a6c3444ce705.mp4",
+        "pose_file": "f6f1a6c3444ce705.txt",
+        "caption": "a dock in the middle of a frozen lake surrounded by trees."
+    },
+    {
+        "clip_name": "ed68a7a690b2861d",
+        "clip_path": "ed68a7a690b2861d.mp4",
+        "pose_file": "ed68a7a690b2861d.txt",
+        "caption": "an aerial view of a house surrounded by snow."
+    },
+    {
+        "clip_name": "06058474f164c53d",
+        "clip_path": "06058474f164c53d.mp4",
+        "pose_file": "06058474f164c53d.txt",
+        "caption": "a bedroom with hardwood floors and a large bed."
+    },
+    {
+        "clip_name": "6de80f26ff52ab0b",
+        "clip_path": "6de80f26ff52ab0b.mp4",
+        "pose_file": "6de80f26ff52ab0b.txt",
+        "caption": "a living room filled with furniture and a fireplace."
+    },
+    {
+        "clip_name": "a293b394e08f7295",
+        "clip_path": "a293b394e08f7295.mp4",
+        "pose_file": "a293b394e08f7295.txt",
+        "caption": "a bathroom with two sinks and a walk in shower."
+    },
+    {
+        "clip_name": "e0559e3ac9e9c659",
+        "clip_path": "e0559e3ac9e9c659.mp4",
+        "pose_file": "e0559e3ac9e9c659.txt",
+        "caption": "a view of a living room from an open doorway."
+    },
+    {
+        "clip_name": "e9651dfa09c273f8",
+        "clip_path": "e9651dfa09c273f8.mp4",
+        "pose_file": "e9651dfa09c273f8.txt",
+        "caption": "a view of a kitchen and living room from above."
+    },
+    {
+        "clip_name": "95aa74ae988f60d8",
+        "clip_path": "95aa74ae988f60d8.mp4",
+        "pose_file": "95aa74ae988f60d8.txt",
+        "caption": "a hallway view of a kitchen and dining room."
+    },
+    {
+        "clip_name": "b6ab04d0a8e79e29",
+        "clip_path": "b6ab04d0a8e79e29.mp4",
+        "pose_file": "b6ab04d0a8e79e29.txt",
+        "caption": "a stone fireplace on a deck overlooking a lake."
+    },
+    {
+        "clip_name": "f76e22ad948f8218",
+        "clip_path": "f76e22ad948f8218.mp4",
+        "pose_file": "f76e22ad948f8218.txt",
+        "caption": "a kitchen with white cabinets and marble counter tops."
+    },
+    {
+        "clip_name": "bc8adae3d0c73ba2",
+        "clip_path": "bc8adae3d0c73ba2.mp4",
+        "pose_file": "bc8adae3d0c73ba2.txt",
+        "caption": "a black front door on a stone building."
+    },
+    {
+        "clip_name": "dd6f5db17e7d568a",
+        "clip_path": "dd6f5db17e7d568a.mp4",
+        "pose_file": "dd6f5db17e7d568a.txt",
+        "caption": "a white bathtub sitting in a bathroom next to a toilet."
+    },
+    {
+        "clip_name": "bd866d25ab1390fd",
+        "clip_path": "bd866d25ab1390fd.mp4",
+        "pose_file": "bd866d25ab1390fd.txt",
+        "caption": "a living room filled with furniture and a fireplace."
+    },
+    {
+        "clip_name": "55ea3046c500d970",
+        "clip_path": "55ea3046c500d970.mp4",
+        "pose_file": "55ea3046c500d970.txt",
+        "caption": "a hallway with a staircase and a painting on the wall."
+    },
+    {
+        "clip_name": "4675ea4e00c2544d",
+        "clip_path": "4675ea4e00c2544d.mp4",
+        "pose_file": "4675ea4e00c2544d.txt",
+        "caption": "a view of a bedroom through an open doorway."
+    },
+    {
+        "clip_name": "860bcd7659c936b3",
+        "clip_path": "860bcd7659c936b3.mp4",
+        "pose_file": "860bcd7659c936b3.txt",
+        "caption": "a bathroom with a toilet, sink and shower."
+    },
+    {
+        "clip_name": "bb4347cfb631b620",
+        "clip_path": "bb4347cfb631b620.mp4",
+        "pose_file": "bb4347cfb631b620.txt",
+        "caption": "an aerial view of a house surrounded by snow."
+    },
+    {
+        "clip_name": "f74139ac48f19b3c",
+        "clip_path": "f74139ac48f19b3c.mp4",
+        "pose_file": "f74139ac48f19b3c.txt",
+        "caption": "a bedroom with a leather couch and a bed."
+    },
+    {
+        "clip_name": "39c662fa32a3b5c6",
+        "clip_path": "39c662fa32a3b5c6.mp4",
+        "pose_file": "39c662fa32a3b5c6.txt",
+        "caption": "a living room with a dining table and chairs."
+    },
+    {
+        "clip_name": "701d9e4435975003",
+        "clip_path": "701d9e4435975003.mp4",
+        "pose_file": "701d9e4435975003.txt",
+        "caption": "a kitchen with white cabinets and stainless steel appliances."
+    },
+    {
+        "clip_name": "851755ccbadc0ddd",
+        "clip_path": "851755ccbadc0ddd.mp4",
+        "pose_file": "851755ccbadc0ddd.txt",
+        "caption": "a leather couch sitting in a bedroom next to a bed."
+    },
+    {
+        "clip_name": "ecc2b1b9cb1fa9ad",
+        "clip_path": "ecc2b1b9cb1fa9ad.mp4",
+        "pose_file": "ecc2b1b9cb1fa9ad.txt",
+        "caption": "an aerial view of a luxury home on the beach."
+    },
+    {
+        "clip_name": "a28d9292ca8d950a",
+        "clip_path": "a28d9292ca8d950a.mp4",
+        "pose_file": "a28d9292ca8d950a.txt",
+        "caption": "a dining room with a large table and chairs."
+    },
+    {
+        "clip_name": "9478dfa1b2aac888",
+        "clip_path": "9478dfa1b2aac888.mp4",
+        "pose_file": "9478dfa1b2aac888.txt",
+        "caption": "a massage table in a room with wooden cabinets."
+    },
+    {
+        "clip_name": "0ebaed7e3d044bc2",
+        "clip_path": "0ebaed7e3d044bc2.mp4",
+        "pose_file": "0ebaed7e3d044bc2.txt",
+        "caption": "a balcony with wicker furniture and a view of the ocean."
+    },
+    {
+        "clip_name": "cef9961b00ab1b48",
+        "clip_path": "cef9961b00ab1b48.mp4",
+        "pose_file": "cef9961b00ab1b48.txt",
+        "caption": "a kitchen with granite counter tops and wooden cabinets."
+    },
+    {
+        "clip_name": "505a86992cc1b6ce",
+        "clip_path": "505a86992cc1b6ce.mp4",
+        "pose_file": "505a86992cc1b6ce.txt",
+        "caption": "a pool surrounded by lush green grass and palm trees."
+    },
+    {
+        "clip_name": "5d79e5de45d935d1",
+        "clip_path": "5d79e5de45d935d1.mp4",
+        "pose_file": "5d79e5de45d935d1.txt",
+        "caption": "an outdoor dining area with a table and chairs."
+    },
+    {
+        "clip_name": "430d7b5b77861810",
+        "clip_path": "430d7b5b77861810.mp4",
+        "pose_file": "430d7b5b77861810.txt",
+        "caption": "a dining room table with chairs and a candle on it."
+    },
+    {
+        "clip_name": "e27a6760413c7c26",
+        "clip_path": "e27a6760413c7c26.mp4",
+        "pose_file": "e27a6760413c7c26.txt",
+        "caption": "an outdoor dining area with tables and chairs overlooking the ocean."
+    },
+    {
+        "clip_name": "2c596a5abfd67267",
+        "clip_path": "2c596a5abfd67267.mp4",
+        "pose_file": "2c596a5abfd67267.txt",
+        "caption": "a view of a dining room table and chairs."
+    },
+    {
+        "clip_name": "68c72dad736be98f",
+        "clip_path": "68c72dad736be98f.mp4",
+        "pose_file": "68c72dad736be98f.txt",
+        "caption": "a view of a dining room and living room."
+    },
+    {
+        "clip_name": "7fdee044fb73c083",
+        "clip_path": "7fdee044fb73c083.mp4",
+        "pose_file": "7fdee044fb73c083.txt",
+        "caption": "a bathroom with a bathtub and a sink."
+    },
+    {
+        "clip_name": "e89d6cef36450090",
+        "clip_path": "e89d6cef36450090.mp4",
+        "pose_file": "e89d6cef36450090.txt",
+        "caption": "a view of a bedroom and bathroom from the hallway."
+    },
+    {
+        "clip_name": "5c01a9e39821e5ce",
+        "clip_path": "5c01a9e39821e5ce.mp4",
+        "pose_file": "5c01a9e39821e5ce.txt",
+        "caption": "a view of a bathroom through a doorway."
+    },
+    {
+        "clip_name": "16c9bcf4cb8de06a",
+        "clip_path": "16c9bcf4cb8de06a.mp4",
+        "pose_file": "16c9bcf4cb8de06a.txt",
+        "caption": "an indoor pool with a basketball hoop in the middle of it."
+    },
+    {
+        "clip_name": "5fa0f6800a909630",
+        "clip_path": "5fa0f6800a909630.mp4",
+        "pose_file": "5fa0f6800a909630.txt",
+        "caption": "this is a view of the inside of a house."
+    },
+    {
+        "clip_name": "44f46dd4cc354bb5",
+        "clip_path": "44f46dd4cc354bb5.mp4",
+        "pose_file": "44f46dd4cc354bb5.txt",
+        "caption": "a bedroom with a canopy bed and a fireplace."
+    },
+    {
+        "clip_name": "0f620bfafa25fcf5",
+        "clip_path": "0f620bfafa25fcf5.mp4",
+        "pose_file": "0f620bfafa25fcf5.txt",
+        "caption": "a close up of a fireplace with logs in it."
+    },
+    {
+        "clip_name": "e26a74786a4eaf3b",
+        "clip_path": "e26a74786a4eaf3b.mp4",
+        "pose_file": "e26a74786a4eaf3b.txt",
+        "caption": "a living room with a couch and some pillows."
+    },
+    {
+        "clip_name": "5c894e0be7da3aa0",
+        "clip_path": "5c894e0be7da3aa0.mp4",
+        "pose_file": "5c894e0be7da3aa0.txt",
+        "caption": "an aerial view of a hallway with a stone archway."
+    },
+    {
+        "clip_name": "a3234b314d51976a",
+        "clip_path": "a3234b314d51976a.mp4",
+        "pose_file": "a3234b314d51976a.txt",
+        "caption": "an aerial view of a living room with a fireplace."
+    },
+    {
+        "clip_name": "1c8d34a791deaaf1",
+        "clip_path": "1c8d34a791deaaf1.mp4",
+        "pose_file": "1c8d34a791deaaf1.txt",
+        "caption": "a close up of a light fixture with grapes on it."
+    },
+    {
+        "clip_name": "b123a976e7e8cf1a",
+        "clip_path": "b123a976e7e8cf1a.mp4",
+        "pose_file": "b123a976e7e8cf1a.txt",
+        "caption": "a fireplace in the middle of a large room."
+    },
+    {
+        "clip_name": "6c952b3a3b6deff0",
+        "clip_path": "6c952b3a3b6deff0.mp4",
+        "pose_file": "6c952b3a3b6deff0.txt",
+        "caption": "a large sectional couch sitting in a living room."
+    },
+    {
+        "clip_name": "f6f99625cfc4ccf0",
+        "clip_path": "f6f99625cfc4ccf0.mp4",
+        "pose_file": "f6f99625cfc4ccf0.txt",
+        "caption": "a view of a living room from the top of a staircase."
+    },
+    {
+        "clip_name": "1bf4fe9301893904",
+        "clip_path": "1bf4fe9301893904.mp4",
+        "pose_file": "1bf4fe9301893904.txt",
+        "caption": "a bed with a pink and red comforter in a bedroom."
+    },
+    {
+        "clip_name": "30006eb23f62aa57",
+        "clip_path": "30006eb23f62aa57.mp4",
+        "pose_file": "30006eb23f62aa57.txt",
+        "caption": "an aerial view of a castle in the mountains."
+    },
+    {
+        "clip_name": "ce8da8989893241e",
+        "clip_path": "ce8da8989893241e.mp4",
+        "pose_file": "ce8da8989893241e.txt",
+        "caption": "a living room with a christmas tree and a spiral staircase."
+    },
+    {
+        "clip_name": "badbfed88f85beaa",
+        "clip_path": "badbfed88f85beaa.mp4",
+        "pose_file": "badbfed88f85beaa.txt",
+        "caption": "a chandelier hanging from the ceiling of a room."
+    },
+    {
+        "clip_name": "9834b5f8f65308b8",
+        "clip_path": "9834b5f8f65308b8.mp4",
+        "pose_file": "9834b5f8f65308b8.txt",
+        "caption": "a bedroom with a four poster bed and a dresser."
+    },
+    {
+        "clip_name": "5451cefde53f06f1",
+        "clip_path": "5451cefde53f06f1.mp4",
+        "pose_file": "5451cefde53f06f1.txt",
+        "caption": "a chandelier hanging from the ceiling of a room."
+    },
+    {
+        "clip_name": "ebb5e70d56341020",
+        "clip_path": "ebb5e70d56341020.mp4",
+        "pose_file": "ebb5e70d56341020.txt",
+        "caption": "an aerial view of a castle in the mountains."
+    },
+    {
+        "clip_name": "41bc9553a1de5aa5",
+        "clip_path": "41bc9553a1de5aa5.mp4",
+        "pose_file": "41bc9553a1de5aa5.txt",
+        "caption": "an open doorway in a stone wall with a light on the other side."
+    },
+    {
+        "clip_name": "6a823717363844c4",
+        "clip_path": "6a823717363844c4.mp4",
+        "pose_file": "6a823717363844c4.txt",
+        "caption": "an indoor swimming pool next to a stone wall."
+    },
+    {
+        "clip_name": "0cbbc98eec80360a",
+        "clip_path": "0cbbc98eec80360a.mp4",
+        "pose_file": "0cbbc98eec80360a.txt",
+        "caption": "a dock that is next to a body of water."
+    },
+    {
+        "clip_name": "0871e5f582cd933c",
+        "clip_path": "0871e5f582cd933c.mp4",
+        "pose_file": "0871e5f582cd933c.txt",
+        "caption": "an aerial view of a large house on the water."
+    },
+    {
+        "clip_name": "739b73b8848f72cb",
+        "clip_path": "739b73b8848f72cb.mp4",
+        "pose_file": "739b73b8848f72cb.txt",
+        "caption": "a view of a kitchen and dining room in a home."
+    },
+    {
+        "clip_name": "fbfed12d638968c2",
+        "clip_path": "fbfed12d638968c2.mp4",
+        "pose_file": "fbfed12d638968c2.txt",
+        "caption": "a living room with two couches and a coffee table."
+    },
+    {
+        "clip_name": "d8a6f5f5687ee167",
+        "clip_path": "d8a6f5f5687ee167.mp4",
+        "pose_file": "d8a6f5f5687ee167.txt",
+        "caption": "a bedroom with a bed and a ceiling fan."
+    },
+    {
+        "clip_name": "41d8b4350913ca64",
+        "clip_path": "41d8b4350913ca64.mp4",
+        "pose_file": "41d8b4350913ca64.txt",
+        "caption": "a wooden deck with a picnic table and chairs."
+    },
+    {
+        "clip_name": "a7c691c210154b09",
+        "clip_path": "a7c691c210154b09.mp4",
+        "pose_file": "a7c691c210154b09.txt",
+        "caption": "an attic room with blue walls and exercise equipment."
+    },
+    {
+        "clip_name": "aa91dfdd5f4ad32b",
+        "clip_path": "aa91dfdd5f4ad32b.mp4",
+        "pose_file": "aa91dfdd5f4ad32b.txt",
+        "caption": "a bedroom with blue walls and an american flag on the wall."
+    },
+    {
+        "clip_name": "38f7ba7fd9a83069",
+        "clip_path": "38f7ba7fd9a83069.mp4",
+        "pose_file": "38f7ba7fd9a83069.txt",
+        "caption": "a living room with blue walls and a grey couch."
+    },
+    {
+        "clip_name": "0d22ced53b1db7d3",
+        "clip_path": "0d22ced53b1db7d3.mp4",
+        "pose_file": "0d22ced53b1db7d3.txt",
+        "caption": "a bedroom with a bed and a television overlooking the ocean."
+    },
+    {
+        "clip_name": "c28856e5ddb0a22c",
+        "clip_path": "c28856e5ddb0a22c.mp4",
+        "pose_file": "c28856e5ddb0a22c.txt",
+        "caption": "a living room with a couch and a television."
+    },
+    {
+        "clip_name": "c9ce08f3c855f349",
+        "clip_path": "c9ce08f3c855f349.mp4",
+        "pose_file": "c9ce08f3c855f349.txt",
+        "caption": "a wooden walkway leads to the beach at sunset."
+    },
+    {
+        "clip_name": "b735773de192a9a2",
+        "clip_path": "b735773de192a9a2.mp4",
+        "pose_file": "b735773de192a9a2.txt",
+        "caption": "a view of the ocean from a home office."
+    },
+    {
+        "clip_name": "2706598994819cfc",
+        "clip_path": "2706598994819cfc.mp4",
+        "pose_file": "2706598994819cfc.txt",
+        "caption": "a wooden walkway leads to the beach at sunset."
+    },
+    {
+        "clip_name": "35a1a32e96f8d39b",
+        "clip_path": "35a1a32e96f8d39b.mp4",
+        "pose_file": "35a1a32e96f8d39b.txt",
+        "caption": "a balcony overlooking the ocean at sunset."
+    },
+    {
+        "clip_name": "43fee307c6339b5e",
+        "clip_path": "43fee307c6339b5e.mp4",
+        "pose_file": "43fee307c6339b5e.txt",
+        "caption": "a balcony overlooking the ocean with chairs and a table."
+    },
+    {
+        "clip_name": "2245fcd7f76c2ecd",
+        "clip_path": "2245fcd7f76c2ecd.mp4",
+        "pose_file": "2245fcd7f76c2ecd.txt",
+        "caption": "a living room filled with furniture and a bar."
+    },
+    {
+        "clip_name": "ee34463322d9e0d4",
+        "clip_path": "ee34463322d9e0d4.mp4",
+        "pose_file": "ee34463322d9e0d4.txt",
+        "caption": "a kitchen with granite counter tops and stainless steel appliances."
+    },
+    {
+        "clip_name": "44d2532c5b5296a1",
+        "clip_path": "44d2532c5b5296a1.mp4",
+        "pose_file": "44d2532c5b5296a1.txt",
+        "caption": "a living room with a couch and chairs in it."
+    },
+    {
+        "clip_name": "966a5307cda23c55",
+        "clip_path": "966a5307cda23c55.mp4",
+        "pose_file": "966a5307cda23c55.txt",
+        "caption": "a bathroom with a toilet and sink in it."
+    },
+    {
+        "clip_name": "9bfbdcd290c6dc72",
+        "clip_path": "9bfbdcd290c6dc72.mp4",
+        "pose_file": "9bfbdcd290c6dc72.txt",
+        "caption": "a living room filled with furniture and a fireplace."
+    },
+    {
+        "clip_name": "c8a4056d36955415",
+        "clip_path": "c8a4056d36955415.mp4",
+        "pose_file": "c8a4056d36955415.txt",
+        "caption": "a view of a living room through an open door."
+    },
+    {
+        "clip_name": "634aefb6e1d7d70c",
+        "clip_path": "634aefb6e1d7d70c.mp4",
+        "pose_file": "634aefb6e1d7d70c.txt",
+        "caption": "an aerial view of a backyard swimming pool."
+    },
+    {
+        "clip_name": "9add67fe53d17288",
+        "clip_path": "9add67fe53d17288.mp4",
+        "pose_file": "9add67fe53d17288.txt",
+        "caption": "a view of a living room through an open doorway."
+    },
+    {
+        "clip_name": "0282160b901229a7",
+        "clip_path": "0282160b901229a7.mp4",
+        "pose_file": "0282160b901229a7.txt",
+        "caption": "a bathroom with a toilet, shower and sink."
+    },
+    {
+        "clip_name": "33a3f65849195eba",
+        "clip_path": "33a3f65849195eba.mp4",
+        "pose_file": "33a3f65849195eba.txt",
+        "caption": "a living room and dining room with a chandelier hanging from the ceiling."
+    },
+    {
+        "clip_name": "6495531b3f82982a",
+        "clip_path": "6495531b3f82982a.mp4",
+        "pose_file": "6495531b3f82982a.txt",
+        "caption": "a living room with two leather chairs and an ottoman."
+    },
+    {
+        "clip_name": "0f7061acbeed50dd",
+        "clip_path": "0f7061acbeed50dd.mp4",
+        "pose_file": "0f7061acbeed50dd.txt",
+        "caption": "aerial view of a house with a deck and lawn."
+    },
+    {
+        "clip_name": "667eb8ab7c00b961",
+        "clip_path": "667eb8ab7c00b961.mp4",
+        "pose_file": "667eb8ab7c00b961.txt",
+        "caption": "a bathroom with a toilet, sink, mirror and shower curtain."
+    },
+    {
+        "clip_name": "505398c0e31ec5f5",
+        "clip_path": "505398c0e31ec5f5.mp4",
+        "pose_file": "505398c0e31ec5f5.txt",
+        "caption": "a living room filled with furniture and hardwood floors."
+    },
+    {
+        "clip_name": "2d6d5e82bda0611c",
+        "clip_path": "2d6d5e82bda0611c.mp4",
+        "pose_file": "2d6d5e82bda0611c.txt",
+        "caption": "a bedroom with a bed, desk and ceiling fan."
+    },
+    {
+        "clip_name": "2d3f982ada31489c",
+        "clip_path": "2d3f982ada31489c.mp4",
+        "pose_file": "2d3f982ada31489c.txt",
+        "caption": "a bedroom with a bed, dresser and closet."
+    },
+    {
+        "clip_name": "721a228529a8c92c",
+        "clip_path": "721a228529a8c92c.mp4",
+        "pose_file": "721a228529a8c92c.txt",
+        "caption": "a living room and dining room with hardwood floors."
+    },
+    {
+        "clip_name": "86157d113ca15798",
+        "clip_path": "86157d113ca15798.mp4",
+        "pose_file": "86157d113ca15798.txt",
+        "caption": "a living room with two leather couches and a fireplace."
+    },
+    {
+        "clip_name": "876b3edad22f730f",
+        "clip_path": "876b3edad22f730f.mp4",
+        "pose_file": "876b3edad22f730f.txt",
+        "caption": "a bedroom with blue walls and a ceiling fan."
+    },
+    {
+        "clip_name": "8ba67e66fe6cf9d8",
+        "clip_path": "8ba67e66fe6cf9d8.mp4",
+        "pose_file": "8ba67e66fe6cf9d8.txt",
+        "caption": "a wooden deck overlooking a backyard swimming pool."
+    },
+    {
+        "clip_name": "20de87f0b3f2d136",
+        "clip_path": "20de87f0b3f2d136.mp4",
+        "pose_file": "20de87f0b3f2d136.txt",
+        "caption": "a bedroom with hardwood floors and a ceiling fan."
+    },
+    {
+        "clip_name": "c161bcf6082b40af",
+        "clip_path": "c161bcf6082b40af.mp4",
+        "pose_file": "c161bcf6082b40af.txt",
+        "caption": "a two car garage in front of a house."
+    },
+    {
+        "clip_name": "11d5f4e7b0b17565",
+        "clip_path": "11d5f4e7b0b17565.mp4",
+        "pose_file": "11d5f4e7b0b17565.txt",
+        "caption": "a kitchen with a microwave, stove, table and chairs."
+    },
+    {
+        "clip_name": "b4944635e320b7e2",
+        "clip_path": "b4944635e320b7e2.mp4",
+        "pose_file": "b4944635e320b7e2.txt",
+        "caption": "a living room with hardwood floors and a couch."
+    },
+    {
+        "clip_name": "b21e0a2b46d32e8f",
+        "clip_path": "b21e0a2b46d32e8f.mp4",
+        "pose_file": "b21e0a2b46d32e8f.txt",
+        "caption": "a drum set in a room next to a washer and dryer."
+    },
+    {
+        "clip_name": "0c1012a308ee2788",
+        "clip_path": "0c1012a308ee2788.mp4",
+        "pose_file": "0c1012a308ee2788.txt",
+        "caption": "a blurry image of an open doorway to a kitchen."
+    },
+    {
+        "clip_name": "eec8ef2fe16dc804",
+        "clip_path": "eec8ef2fe16dc804.mp4",
+        "pose_file": "eec8ef2fe16dc804.txt",
+        "caption": "a large kitchen with wooden cabinets and stools."
+    },
+    {
+        "clip_name": "573b63f64db569a4",
+        "clip_path": "573b63f64db569a4.mp4",
+        "pose_file": "573b63f64db569a4.txt",
+        "caption": "a large living room with purple carpeting and a stone fireplace."
+    },
+    {
+        "clip_name": "5eb4f61d2fc01423",
+        "clip_path": "5eb4f61d2fc01423.mp4",
+        "pose_file": "5eb4f61d2fc01423.txt",
+        "caption": "an empty living room with a large window and tile floor."
+    },
+    {
+        "clip_name": "455964aa4ead1e2f",
+        "clip_path": "455964aa4ead1e2f.mp4",
+        "pose_file": "455964aa4ead1e2f.txt",
+        "caption": "a kitchen with wooden cabinets and black appliances."
+    },
+    {
+        "clip_name": "b1c52eac61190f01",
+        "clip_path": "b1c52eac61190f01.mp4",
+        "pose_file": "b1c52eac61190f01.txt",
+        "caption": "a living room with two couches and a staircase."
+    },
+    {
+        "clip_name": "ab3f69c52338a68f",
+        "clip_path": "ab3f69c52338a68f.mp4",
+        "pose_file": "ab3f69c52338a68f.txt",
+        "caption": "a bathroom with pink walls and floral wallpaper."
+    },
+    {
+        "clip_name": "de2ba042ffbc4713",
+        "clip_path": "de2ba042ffbc4713.mp4",
+        "pose_file": "de2ba042ffbc4713.txt",
+        "caption": "a bathroom with a toilet, sink and shower."
+    },
+    {
+        "clip_name": "89371ab4cdf5e682",
+        "clip_path": "89371ab4cdf5e682.mp4",
+        "pose_file": "89371ab4cdf5e682.txt",
+        "caption": "a living room with a couch and a staircase."
+    },
+    {
+        "clip_name": "8135673a5a3e3d17",
+        "clip_path": "8135673a5a3e3d17.mp4",
+        "pose_file": "8135673a5a3e3d17.txt",
+        "caption": "a red house sits on the side of a snowy road."
+    },
+    {
+        "clip_name": "629a5759d6c89b71",
+        "clip_path": "629a5759d6c89b71.mp4",
+        "pose_file": "629a5759d6c89b71.txt",
+        "caption": "a pool table and ping pong table in a game room."
+    },
+    {
+        "clip_name": "539e5c40055bfe41",
+        "clip_path": "539e5c40055bfe41.mp4",
+        "pose_file": "539e5c40055bfe41.txt",
+        "caption": "a bedroom with gray walls and a white bed."
+    },
+    {
+        "clip_name": "33842f4b169e4145",
+        "clip_path": "33842f4b169e4145.mp4",
+        "pose_file": "33842f4b169e4145.txt",
+        "caption": "a hallway with a staircase and a picture on the wall."
+    },
+    {
+        "clip_name": "b43f7a3f38045f13",
+        "clip_path": "b43f7a3f38045f13.mp4",
+        "pose_file": "b43f7a3f38045f13.txt",
+        "caption": "a kitchen with wooden cabinets and a center island."
+    },
+    {
+        "clip_name": "591f4c925046bd2a",
+        "clip_path": "591f4c925046bd2a.mp4",
+        "pose_file": "591f4c925046bd2a.txt",
+        "caption": "a living room with wood floors and stairs leading up to the second floor."
+    },
+    {
+        "clip_name": "5f4ad1c4a3979f1a",
+        "clip_path": "5f4ad1c4a3979f1a.mp4",
+        "pose_file": "5f4ad1c4a3979f1a.txt",
+        "caption": "an open doorway leading into a room with a picture on the wall."
+    },
+    {
+        "clip_name": "5b8b4c355672dbb3",
+        "clip_path": "5b8b4c355672dbb3.mp4",
+        "pose_file": "5b8b4c355672dbb3.txt",
+        "caption": "a kitchen with wooden cabinets and tile flooring."
+    },
+    {
+        "clip_name": "67a69088a2695987",
+        "clip_path": "67a69088a2695987.mp4",
+        "pose_file": "67a69088a2695987.txt",
+        "caption": "a room with a desk and bookshelves next to a window."
+    },
+    {
+        "clip_name": "55aff897880fa187",
+        "clip_path": "55aff897880fa187.mp4",
+        "pose_file": "55aff897880fa187.txt",
+        "caption": "a bathroom with a pink toilet and sink."
+    },
+    {
+        "clip_name": "d6c20aa5b7de5ee4",
+        "clip_path": "d6c20aa5b7de5ee4.mp4",
+        "pose_file": "d6c20aa5b7de5ee4.txt",
+        "caption": "an attic room with lots of shelves and toys."
+    },
+    {
+        "clip_name": "1c29b1d8fd1dab3f",
+        "clip_path": "1c29b1d8fd1dab3f.mp4",
+        "pose_file": "1c29b1d8fd1dab3f.txt",
+        "caption": "a view of a bathroom through a doorway."
+    },
+    {
+        "clip_name": "77917a56e2650f83",
+        "clip_path": "77917a56e2650f83.mp4",
+        "pose_file": "77917a56e2650f83.txt",
+        "caption": "a ping pong table in the middle of a room."
+    },
+    {
+        "clip_name": "5cce330e210390f8",
+        "clip_path": "5cce330e210390f8.mp4",
+        "pose_file": "5cce330e210390f8.txt",
+        "caption": "a hallway leading to a living room in a house."
+    },
+    {
+        "clip_name": "8b50f64f609a7417",
+        "clip_path": "8b50f64f609a7417.mp4",
+        "pose_file": "8b50f64f609a7417.txt",
+        "caption": "a bedroom with a bed, dresser, mirror and window."
+    },
+    {
+        "clip_name": "c36bf9d0ce6a4745",
+        "clip_path": "c36bf9d0ce6a4745.mp4",
+        "pose_file": "c36bf9d0ce6a4745.txt",
+        "caption": "a kitchen with marble counter tops and wooden cabinets."
+    },
+    {
+        "clip_name": "4e9fb1e7c4b43781",
+        "clip_path": "4e9fb1e7c4b43781.mp4",
+        "pose_file": "4e9fb1e7c4b43781.txt",
+        "caption": "a living room with large windows and potted plants."
+    },
+    {
+        "clip_name": "a7849dbe8e0a9e87",
+        "clip_path": "a7849dbe8e0a9e87.mp4",
+        "pose_file": "a7849dbe8e0a9e87.txt",
+        "caption": "a large bathroom with two sinks and a bathtub."
+    },
+    {
+        "clip_name": "82041f060168dbe1",
+        "clip_path": "82041f060168dbe1.mp4",
+        "pose_file": "82041f060168dbe1.txt",
+        "caption": "a bbq grill sitting on a deck next to a swimming pool."
+    },
+    {
+        "clip_name": "915b32960b74b4cd",
+        "clip_path": "915b32960b74b4cd.mp4",
+        "pose_file": "915b32960b74b4cd.txt",
+        "caption": "a bedroom with a bed and dresser in it."
+    },
+    {
+        "clip_name": "67e9762f0471865b",
+        "clip_path": "67e9762f0471865b.mp4",
+        "pose_file": "67e9762f0471865b.txt",
+        "caption": "a view of a living room through a doorway."
+    },
+    {
+        "clip_name": "9d5a1b9e70599ba8",
+        "clip_path": "9d5a1b9e70599ba8.mp4",
+        "pose_file": "9d5a1b9e70599ba8.txt",
+        "caption": "a hallway leading to a living room and dining room."
+    },
+    {
+        "clip_name": "6207713a493ed71d",
+        "clip_path": "6207713a493ed71d.mp4",
+        "pose_file": "6207713a493ed71d.txt",
+        "caption": "a living room filled with couches, chairs and a desk."
+    },
+    {
+        "clip_name": "ac73a783affee4d6",
+        "clip_path": "ac73a783affee4d6.mp4",
+        "pose_file": "ac73a783affee4d6.txt",
+        "caption": "a view of a living room through a doorway."
+    },
+    {
+        "clip_name": "b59d323db46b8e8c",
+        "clip_path": "b59d323db46b8e8c.mp4",
+        "pose_file": "b59d323db46b8e8c.txt",
+        "caption": "a hallway in a house with pictures on the wall."
+    },
+    {
+        "clip_name": "afa3ca638647dc99",
+        "clip_path": "afa3ca638647dc99.mp4",
+        "pose_file": "afa3ca638647dc99.txt",
+        "caption": "a view of a dining room and kitchen."
+    },
+    {
+        "clip_name": "85e9836f5ec2a532",
+        "clip_path": "85e9836f5ec2a532.mp4",
+        "pose_file": "85e9836f5ec2a532.txt",
+        "caption": "a deck with a bbq grill next to a swimming pool."
+    },
+    {
+        "clip_name": "ed84c8456afd57d2",
+        "clip_path": "ed84c8456afd57d2.mp4",
+        "pose_file": "ed84c8456afd57d2.txt",
+        "caption": "a hallway with pictures hanging on the wall."
+    },
+    {
+        "clip_name": "76cd1d8adab4547f",
+        "clip_path": "76cd1d8adab4547f.mp4",
+        "pose_file": "76cd1d8adab4547f.txt",
+        "caption": "a view of a deck with an umbrella and chairs."
+    },
+    {
+        "clip_name": "3015a3eab4b6d042",
+        "clip_path": "3015a3eab4b6d042.mp4",
+        "pose_file": "3015a3eab4b6d042.txt",
+        "caption": "a bedroom with purple walls and a white bed."
+    },
+    {
+        "clip_name": "a63376e5ea70896e",
+        "clip_path": "a63376e5ea70896e.mp4",
+        "pose_file": "a63376e5ea70896e.txt",
+        "caption": "a dining room table with chairs and a chandelier."
+    },
+    {
+        "clip_name": "57e484f704e5ef90",
+        "clip_path": "57e484f704e5ef90.mp4",
+        "pose_file": "57e484f704e5ef90.txt",
+        "caption": "a living room filled with furniture and a fireplace."
+    },
+    {
+        "clip_name": "282ad05cb0113543",
+        "clip_path": "282ad05cb0113543.mp4",
+        "pose_file": "282ad05cb0113543.txt",
+        "caption": "an aerial view of a house on top of a hill."
+    },
+    {
+        "clip_name": "def9edf5ffb57b46",
+        "clip_path": "def9edf5ffb57b46.mp4",
+        "pose_file": "def9edf5ffb57b46.txt",
+        "caption": "a balcony overlooking a body of water with a view of a bridge in the distance."
+    },
+    {
+        "clip_name": "58846d3b272e7c12",
+        "clip_path": "58846d3b272e7c12.mp4",
+        "pose_file": "58846d3b272e7c12.txt",
+        "caption": "a living room with a couch, chair, coffee table and sliding glass doors."
+    },
+    {
+        "clip_name": "37a960afb176c485",
+        "clip_path": "37a960afb176c485.mp4",
+        "pose_file": "37a960afb176c485.txt",
+        "caption": "an aerial view of houses on a hillside surrounded by trees."
+    },
+    {
+        "clip_name": "ec095970b124c66e",
+        "clip_path": "ec095970b124c66e.mp4",
+        "pose_file": "ec095970b124c66e.txt",
+        "caption": "a view of the city skyline from a hill overlooking the ocean."
+    },
+    {
+        "clip_name": "51e54f65c553c2c2",
+        "clip_path": "51e54f65c553c2c2.mp4",
+        "pose_file": "51e54f65c553c2c2.txt",
+        "caption": "an aerial view of a body of water surrounded by trees."
+    },
+    {
+        "clip_name": "bfcc43cb05071cf7",
+        "clip_path": "bfcc43cb05071cf7.mp4",
+        "pose_file": "bfcc43cb05071cf7.txt",
+        "caption": "a dock in the middle of a large body of water."
+    },
+    {
+        "clip_name": "7218b8b94350581e",
+        "clip_path": "7218b8b94350581e.mp4",
+        "pose_file": "7218b8b94350581e.txt",
+        "caption": "a white staircase with a potted plant on it."
+    },
+    {
+        "clip_name": "74bc45c8a1f8300f",
+        "clip_path": "74bc45c8a1f8300f.mp4",
+        "pose_file": "74bc45c8a1f8300f.txt",
+        "caption": "a backyard with a small house and garden."
+    },
+    {
+        "clip_name": "45122648522d4180",
+        "clip_path": "45122648522d4180.mp4",
+        "pose_file": "45122648522d4180.txt",
+        "caption": "a bedroom with a bed and a glass wall."
+    },
+    {
+        "clip_name": "b01d30861f56b1f9",
+        "clip_path": "b01d30861f56b1f9.mp4",
+        "pose_file": "b01d30861f56b1f9.txt",
+        "caption": "a bedroom with a bed, chair, lamp and window."
+    },
+    {
+        "clip_name": "15ca8e1fce488c19",
+        "clip_path": "15ca8e1fce488c19.mp4",
+        "pose_file": "15ca8e1fce488c19.txt",
+        "caption": "a patio with chairs and tables in front of a house."
+    },
+    {
+        "clip_name": "90cbfcf3d8974851",
+        "clip_path": "90cbfcf3d8974851.mp4",
+        "pose_file": "90cbfcf3d8974851.txt",
+        "caption": "a potted plant sits in the corner of a room."
+    },
+    {
+        "clip_name": "31b8eb8bbebed9b8",
+        "clip_path": "31b8eb8bbebed9b8.mp4",
+        "pose_file": "31b8eb8bbebed9b8.txt",
+        "caption": "a bedroom with a bed, dresser, lamp and window."
+    },
+    {
+        "clip_name": "b8dc10bac55b02ff",
+        "clip_path": "b8dc10bac55b02ff.mp4",
+        "pose_file": "b8dc10bac55b02ff.txt",
+        "caption": "a living room with hardwood floors and a fireplace."
+    },
+    {
+        "clip_name": "f04b433b91f569c3",
+        "clip_path": "f04b433b91f569c3.mp4",
+        "pose_file": "f04b433b91f569c3.txt",
+        "caption": "a view of a living room with a yellow door."
+    },
+    {
+        "clip_name": "f93a6b5a5c9fdcd4",
+        "clip_path": "f93a6b5a5c9fdcd4.mp4",
+        "pose_file": "f93a6b5a5c9fdcd4.txt",
+        "caption": "a kitchen with stainless steel appliances and white cabinets."
+    },
+    {
+        "clip_name": "2bd7cee1fa9c8996",
+        "clip_path": "2bd7cee1fa9c8996.mp4",
+        "pose_file": "2bd7cee1fa9c8996.txt",
+        "caption": "a dining room with a table and chairs in it."
+    },
+    {
+        "clip_name": "397bbed49e1ee8dc",
+        "clip_path": "397bbed49e1ee8dc.mp4",
+        "pose_file": "397bbed49e1ee8dc.txt",
+        "caption": "a kitchen with white cabinets and black counter tops."
+    },
+    {
+        "clip_name": "a0671c9cfe5a2777",
+        "clip_path": "a0671c9cfe5a2777.mp4",
+        "pose_file": "a0671c9cfe5a2777.txt",
+        "caption": "a living room with hardwood floors and a fireplace."
+    },
+    {
+        "clip_name": "8ab1900fbe301245",
+        "clip_path": "8ab1900fbe301245.mp4",
+        "pose_file": "8ab1900fbe301245.txt",
+        "caption": "a kitchen with stainless steel appliances and white cabinets."
+    },
+    {
+        "clip_name": "7163869be06d7dd5",
+        "clip_path": "7163869be06d7dd5.mp4",
+        "pose_file": "7163869be06d7dd5.txt",
+        "caption": "an aerial view of a house surrounded by trees."
+    },
+    {
+        "clip_name": "ac34fb6f1326b9a8",
+        "clip_path": "ac34fb6f1326b9a8.mp4",
+        "pose_file": "ac34fb6f1326b9a8.txt",
+        "caption": "a kitchen with white cabinets and stainless steel appliances."
+    },
+    {
+        "clip_name": "70b9150d03080611",
+        "clip_path": "70b9150d03080611.mp4",
+        "pose_file": "70b9150d03080611.txt",
+        "caption": "a kitchen with a white table and chairs."
+    },
+    {
+        "clip_name": "36d85599a9cbb6b3",
+        "clip_path": "36d85599a9cbb6b3.mp4",
+        "pose_file": "36d85599a9cbb6b3.txt",
+        "caption": "an aerial view of a house surrounded by trees."
+    },
+    {
+        "clip_name": "4654bcf019ddaf4f",
+        "clip_path": "4654bcf019ddaf4f.mp4",
+        "pose_file": "4654bcf019ddaf4f.txt",
+        "caption": "a living room filled with white furniture and large windows."
+    },
+    {
+        "clip_name": "786bfb8a195d54b4",
+        "clip_path": "786bfb8a195d54b4.mp4",
+        "pose_file": "786bfb8a195d54b4.txt",
+        "caption": "a kitchen with a white table and chairs."
+    },
+    {
+        "clip_name": "9f2798fef9b29ad2",
+        "clip_path": "9f2798fef9b29ad2.mp4",
+        "pose_file": "9f2798fef9b29ad2.txt",
+        "caption": "an aerial view of a house surrounded by trees."
+    },
+    {
+        "clip_name": "9a0812fd8595507a",
+        "clip_path": "9a0812fd8595507a.mp4",
+        "pose_file": "9a0812fd8595507a.txt",
+        "caption": "a rooftop patio with benches and tables overlooking the city."
+    },
+    {
+        "clip_name": "c040eebe10425e1c",
+        "clip_path": "c040eebe10425e1c.mp4",
+        "pose_file": "c040eebe10425e1c.txt",
+        "caption": "a living room with furniture and a flat screen tv."
+    },
+    {
+        "clip_name": "9f98b303e2856a84",
+        "clip_path": "9f98b303e2856a84.mp4",
+        "pose_file": "9f98b303e2856a84.txt",
+        "caption": "a living room with couches, chairs and a flat screen tv."
+    },
+    {
+        "clip_name": "6dd08f04e95ac92b",
+        "clip_path": "6dd08f04e95ac92b.mp4",
+        "pose_file": "6dd08f04e95ac92b.txt",
+        "caption": "a dining room with a table and chairs."
+    },
+    {
+        "clip_name": "72da983f41589a62",
+        "clip_path": "72da983f41589a62.mp4",
+        "pose_file": "72da983f41589a62.txt",
+        "caption": "a bedroom with a bed, dresser, and mirror."
+    },
+    {
+        "clip_name": "36e94b0ad3a62c7d",
+        "clip_path": "36e94b0ad3a62c7d.mp4",
+        "pose_file": "36e94b0ad3a62c7d.txt",
+        "caption": "a view of a bathroom through an open doorway."
+    },
+    {
+        "clip_name": "06dcbfe7cd79bb66",
+        "clip_path": "06dcbfe7cd79bb66.mp4",
+        "pose_file": "06dcbfe7cd79bb66.txt",
+        "caption": "a kitchen with stainless steel appliances and granite countertops."
+    },
+    {
+        "clip_name": "1a71f05476d8864f",
+        "clip_path": "1a71f05476d8864f.mp4",
+        "pose_file": "1a71f05476d8864f.txt",
+        "caption": "a bedroom with white brick walls and hardwood floors."
+    },
+    {
+        "clip_name": "9afda7b164cf2cdc",
+        "clip_path": "9afda7b164cf2cdc.mp4",
+        "pose_file": "9afda7b164cf2cdc.txt",
+        "caption": "a modern kitchen with white counter tops and black cabinets."
+    },
+    {
+        "clip_name": "66f2224ed4e57796",
+        "clip_path": "66f2224ed4e57796.mp4",
+        "pose_file": "66f2224ed4e57796.txt",
+        "caption": "a kitchen with white stools and a center island."
+    },
+    {
+        "clip_name": "3d394fbabe0e733d",
+        "clip_path": "3d394fbabe0e733d.mp4",
+        "pose_file": "3d394fbabe0e733d.txt",
+        "caption": "a modern kitchen with white counter tops and stainless steel appliances."
+    },
+    {
+        "clip_name": "7f99a35004f27329",
+        "clip_path": "7f99a35004f27329.mp4",
+        "pose_file": "7f99a35004f27329.txt",
+        "caption": "a laundry room with a washer and dryer in it."
+    },
+    {
+        "clip_name": "22085848f943c2c6",
+        "clip_path": "22085848f943c2c6.mp4",
+        "pose_file": "22085848f943c2c6.txt",
+        "caption": "a bathroom with two sinks and a bathtub."
+    },
+    {
+        "clip_name": "a8dcd4abc930ee61",
+        "clip_path": "a8dcd4abc930ee61.mp4",
+        "pose_file": "a8dcd4abc930ee61.txt",
+        "caption": "a dining room with a white table and chairs."
+    },
+    {
+        "clip_name": "9654656bfbf9e580",
+        "clip_path": "9654656bfbf9e580.mp4",
+        "pose_file": "9654656bfbf9e580.txt",
+        "caption": "a walk in closet with black shelves and drawers."
+    },
+    {
+        "clip_name": "a198072668fa2474",
+        "clip_path": "a198072668fa2474.mp4",
+        "pose_file": "a198072668fa2474.txt",
+        "caption": "a living room with hardwood floors and a flat screen tv."
+    },
+    {
+        "clip_name": "b3111967db98b796",
+        "clip_path": "b3111967db98b796.mp4",
+        "pose_file": "b3111967db98b796.txt",
+        "caption": "a bathroom with a sink, toilet and shelves."
+    },
+    {
+        "clip_name": "168c85ce00de0c6b",
+        "clip_path": "168c85ce00de0c6b.mp4",
+        "pose_file": "168c85ce00de0c6b.txt",
+        "caption": "a dining room with a table, chairs and pictures on the wall."
+    },
+    {
+        "clip_name": "a403a07ebd41b6d2",
+        "clip_path": "a403a07ebd41b6d2.mp4",
+        "pose_file": "a403a07ebd41b6d2.txt",
+        "caption": "a laundry room with a washer, dryer and sink."
+    },
+    {
+        "clip_name": "9873cc20ca70cdf1",
+        "clip_path": "9873cc20ca70cdf1.mp4",
+        "pose_file": "9873cc20ca70cdf1.txt",
+        "caption": "a kitchen with a dining table and a sink."
+    },
+    {
+        "clip_name": "7b6a13ed373bafb1",
+        "clip_path": "7b6a13ed373bafb1.mp4",
+        "pose_file": "7b6a13ed373bafb1.txt",
+        "caption": "a hallway with hardwood floors and white walls."
+    },
+    {
+        "clip_name": "97c7ce37db25fae1",
+        "clip_path": "97c7ce37db25fae1.mp4",
+        "pose_file": "97c7ce37db25fae1.txt",
+        "caption": "a bathtub sitting in a bathroom next to a window."
+    },
+    {
+        "clip_name": "99e6a29aa78a1ac5",
+        "clip_path": "99e6a29aa78a1ac5.mp4",
+        "pose_file": "99e6a29aa78a1ac5.txt",
+        "caption": "a staircase leading up to a window with shutters."
+    },
+    {
+        "clip_name": "090c672e7e394397",
+        "clip_path": "090c672e7e394397.mp4",
+        "pose_file": "090c672e7e394397.txt",
+        "caption": "a wooden bench sitting in the corner of a room."
+    },
+    {
+        "clip_name": "eab4683c60345350",
+        "clip_path": "eab4683c60345350.mp4",
+        "pose_file": "eab4683c60345350.txt",
+        "caption": "a kitchen and dining room with a table and chairs."
+    },
+    {
+        "clip_name": "d3dfe08fc77cd6d8",
+        "clip_path": "d3dfe08fc77cd6d8.mp4",
+        "pose_file": "d3dfe08fc77cd6d8.txt",
+        "caption": "a bathroom with a walk in shower and a bathtub."
+    },
+    {
+        "clip_name": "9c07d2b1995e5ddd",
+        "clip_path": "9c07d2b1995e5ddd.mp4",
+        "pose_file": "9c07d2b1995e5ddd.txt",
+        "caption": "a living room with a leather couch and hardwood floors."
+    },
+    {
+        "clip_name": "774c8cdbea630fbc",
+        "clip_path": "774c8cdbea630fbc.mp4",
+        "pose_file": "774c8cdbea630fbc.txt",
+        "caption": "a bedroom with blue walls and white furniture."
+    },
+    {
+        "clip_name": "a0128570092908d5",
+        "clip_path": "a0128570092908d5.mp4",
+        "pose_file": "a0128570092908d5.txt",
+        "caption": "a bedroom with blue walls and a white bed."
+    },
+    {
+        "clip_name": "291bc22350620114",
+        "clip_path": "291bc22350620114.mp4",
+        "pose_file": "291bc22350620114.txt",
+        "caption": "a bedroom with a white bed and yellow lamps."
+    },
+    {
+        "clip_name": "0c8b534612a0a776",
+        "clip_path": "0c8b534612a0a776.mp4",
+        "pose_file": "0c8b534612a0a776.txt",
+        "caption": "a living room and dining room with hardwood floors."
+    },
+    {
+        "clip_name": "724928496fafcf03",
+        "clip_path": "724928496fafcf03.mp4",
+        "pose_file": "724928496fafcf03.txt",
+        "caption": "a kitchen with a stainless steel refrigerator and sink."
+    },
+    {
+        "clip_name": "19a28e5c25feb31f",
+        "clip_path": "19a28e5c25feb31f.mp4",
+        "pose_file": "19a28e5c25feb31f.txt",
+        "caption": "a bedroom with a bed, dresser and mirror."
+    },
+    {
+        "clip_name": "2fc53a78c3c91d6c",
+        "clip_path": "2fc53a78c3c91d6c.mp4",
+        "pose_file": "2fc53a78c3c91d6c.txt",
+        "caption": "a bathroom with a toilet, sink and shower."
+    },
+    {
+        "clip_name": "55d5db78157d5090",
+        "clip_path": "55d5db78157d5090.mp4",
+        "pose_file": "55d5db78157d5090.txt",
+        "caption": "a bathroom with a bathtub, sink and toilet."
+    },
+    {
+        "clip_name": "982cdf2ed96f95de",
+        "clip_path": "982cdf2ed96f95de.mp4",
+        "pose_file": "982cdf2ed96f95de.txt",
+        "caption": "a kitchen with wooden cabinets and a stainless steel refrigerator."
+    },
+    {
+        "clip_name": "0626b812d67da3c6",
+        "clip_path": "0626b812d67da3c6.mp4",
+        "pose_file": "0626b812d67da3c6.txt",
+        "caption": "a view of a kitchen and living room in a new home."
+    },
+    {
+        "clip_name": "81be42df6ccae760",
+        "clip_path": "81be42df6ccae760.mp4",
+        "pose_file": "81be42df6ccae760.txt",
+        "caption": "an empty room with wood beams and concrete floors."
+    },
+    {
+        "clip_name": "3cda3a0dce5ed123",
+        "clip_path": "3cda3a0dce5ed123.mp4",
+        "pose_file": "3cda3a0dce5ed123.txt",
+        "caption": "an empty room with hardwood floors and red walls."
+    },
+    {
+        "clip_name": "8c5136bca99f6b66",
+        "clip_path": "8c5136bca99f6b66.mp4",
+        "pose_file": "8c5136bca99f6b66.txt",
+        "caption": "a bathroom with a sink and a toilet in it."
+    },
+    {
+        "clip_name": "6361aae2376e35b3",
+        "clip_path": "6361aae2376e35b3.mp4",
+        "pose_file": "6361aae2376e35b3.txt",
+        "caption": "a balcony overlooking a large field with a house in the background."
+    },
+    {
+        "clip_name": "4e2bb6d3056df6d8",
+        "clip_path": "4e2bb6d3056df6d8.mp4",
+        "pose_file": "4e2bb6d3056df6d8.txt",
+        "caption": "a balcony with an ornate railing and palm trees in the background."
+    },
+    {
+        "clip_name": "93a7728b6230b122",
+        "clip_path": "93a7728b6230b122.mp4",
+        "pose_file": "93a7728b6230b122.txt",
+        "caption": "a large living room with a fireplace and lots of furniture."
+    },
+    {
+        "clip_name": "5444242c3fc57534",
+        "clip_path": "5444242c3fc57534.mp4",
+        "pose_file": "5444242c3fc57534.txt",
+        "caption": "an image of a house with a pool and palm trees."
+    },
+    {
+        "clip_name": "4879ebbcfd888f5b",
+        "clip_path": "4879ebbcfd888f5b.mp4",
+        "pose_file": "4879ebbcfd888f5b.txt",
+        "caption": "a fancy kitchen with marble counter tops and chandelier."
+    },
+    {
+        "clip_name": "f6696c05fbf5a137",
+        "clip_path": "f6696c05fbf5a137.mp4",
+        "pose_file": "f6696c05fbf5a137.txt",
+        "caption": "a reflection of a living room with a fireplace and couches."
+    },
+    {
+        "clip_name": "6afb95545c3aa4f2",
+        "clip_path": "6afb95545c3aa4f2.mp4",
+        "pose_file": "6afb95545c3aa4f2.txt",
+        "caption": "a pool table in the middle of a living room."
+    },
+    {
+        "clip_name": "6cb785759c99e839",
+        "clip_path": "6cb785759c99e839.mp4",
+        "pose_file": "6cb785759c99e839.txt",
+        "caption": "a large house with a patio and lawn in front of it."
+    },
+    {
+        "clip_name": "41aa58e688a04336",
+        "clip_path": "41aa58e688a04336.mp4",
+        "pose_file": "41aa58e688a04336.txt",
+        "caption": "an outdoor living room with a fireplace and patio furniture."
+    },
+    {
+        "clip_name": "eee9047b6388fce2",
+        "clip_path": "eee9047b6388fce2.mp4",
+        "pose_file": "eee9047b6388fce2.txt",
+        "caption": "a reflection of a room with a chandelier and plants."
+    },
+    {
+        "clip_name": "a960f29aac73151c",
+        "clip_path": "a960f29aac73151c.mp4",
+        "pose_file": "a960f29aac73151c.txt",
+        "caption": "a kitchen with a stainless steel refrigerator and granite counter tops."
+    },
+    {
+        "clip_name": "36e69606a7599644",
+        "clip_path": "36e69606a7599644.mp4",
+        "pose_file": "36e69606a7599644.txt",
+        "caption": "palm trees in front of a house on a sunny day."
+    },
+    {
+        "clip_name": "c0677cb9b8d767a6",
+        "clip_path": "c0677cb9b8d767a6.mp4",
+        "pose_file": "c0677cb9b8d767a6.txt",
+        "caption": "a swimming pool surrounded by columns and palm trees."
+    },
+    {
+        "clip_name": "f20f939c45d67d35",
+        "clip_path": "f20f939c45d67d35.mp4",
+        "pose_file": "f20f939c45d67d35.txt",
+        "caption": "a view through a window of a house with leaves on the ground."
+    },
+    {
+        "clip_name": "04fe4ec70781a0e8",
+        "clip_path": "04fe4ec70781a0e8.mp4",
+        "pose_file": "04fe4ec70781a0e8.txt",
+        "caption": "a living room with yellow walls and a fireplace."
+    },
+    {
+        "clip_name": "f4aa94121e4e3c77",
+        "clip_path": "f4aa94121e4e3c77.mp4",
+        "pose_file": "f4aa94121e4e3c77.txt",
+        "caption": "a hallway with yellow walls and wood floors."
+    },
+    {
+        "clip_name": "d57f52c12e2d2189",
+        "clip_path": "d57f52c12e2d2189.mp4",
+        "pose_file": "d57f52c12e2d2189.txt",
+        "caption": "a house with steps leading up to the front door."
+    },
+    {
+        "clip_name": "921dc10300a78f6a",
+        "clip_path": "921dc10300a78f6a.mp4",
+        "pose_file": "921dc10300a78f6a.txt",
+        "caption": "a living room with yellow walls and furniture."
+    },
+    {
+        "clip_name": "018f7907401f2fef",
+        "clip_path": "018f7907401f2fef.mp4",
+        "pose_file": "018f7907401f2fef.txt",
+        "caption": "a bedroom with a bed and dresser in it."
+    },
+    {
+        "clip_name": "1a22c18ef654437d",
+        "clip_path": "1a22c18ef654437d.mp4",
+        "pose_file": "1a22c18ef654437d.txt",
+        "caption": "a stone walkway leads to the front of a house."
+    },
+    {
+        "clip_name": "375f9c448cf31ccb",
+        "clip_path": "375f9c448cf31ccb.mp4",
+        "pose_file": "375f9c448cf31ccb.txt",
+        "caption": "a kitchen with wooden cabinets, a sink and a window."
+    },
+    {
+        "clip_name": "ae8ea9afb925ee77",
+        "clip_path": "ae8ea9afb925ee77.mp4",
+        "pose_file": "ae8ea9afb925ee77.txt",
+        "caption": "a living room with yellow walls and furniture."
+    },
+    {
+        "clip_name": "65347e5e1805b7da",
+        "clip_path": "65347e5e1805b7da.mp4",
+        "pose_file": "65347e5e1805b7da.txt",
+        "caption": "a living room with yellow walls and a fireplace."
+    },
+    {
+        "clip_name": "70d4e7655d85c3af",
+        "clip_path": "70d4e7655d85c3af.mp4",
+        "pose_file": "70d4e7655d85c3af.txt",
+        "caption": "a bench sits in the middle of a grassy yard."
+    },
+    {
+        "clip_name": "28b23ec38ac5c0b1",
+        "clip_path": "28b23ec38ac5c0b1.mp4",
+        "pose_file": "28b23ec38ac5c0b1.txt",
+        "caption": "a small bathroom with a window and decorative wall hangings."
+    },
+    {
+        "clip_name": "f7b6889ed4c6075e",
+        "clip_path": "f7b6889ed4c6075e.mp4",
+        "pose_file": "f7b6889ed4c6075e.txt",
+        "caption": "a small kitchen with wooden cabinets and a refrigerator."
+    },
+    {
+        "clip_name": "39074bca3524418b",
+        "clip_path": "39074bca3524418b.mp4",
+        "pose_file": "39074bca3524418b.txt",
+        "caption": "a living room with yellow walls and furniture."
+    },
+    {
+        "clip_name": "86a79c11a7eba435",
+        "clip_path": "86a79c11a7eba435.mp4",
+        "pose_file": "86a79c11a7eba435.txt",
+        "caption": "a view of the kitchen and dining room from the hallway."
+    },
+    {
+        "clip_name": "fd56ac232431ec1e",
+        "clip_path": "fd56ac232431ec1e.mp4",
+        "pose_file": "fd56ac232431ec1e.txt",
+        "caption": "a view of a bedroom with a chandelier and mirror."
+    },
+    {
+        "clip_name": "cfddcc6c4de69fcd",
+        "clip_path": "cfddcc6c4de69fcd.mp4",
+        "pose_file": "cfddcc6c4de69fcd.txt",
+        "caption": "a view of a staircase from the top of the stairs."
+    },
+    {
+        "clip_name": "607cb83de25fb598",
+        "clip_path": "607cb83de25fb598.mp4",
+        "pose_file": "607cb83de25fb598.txt",
+        "caption": "a bathroom with a walk in shower and a bathtub."
+    },
+    {
+        "clip_name": "568ef8c24a0b1408",
+        "clip_path": "568ef8c24a0b1408.mp4",
+        "pose_file": "568ef8c24a0b1408.txt",
+        "caption": "an empty living room with a fireplace and large windows."
+    },
+    {
+        "clip_name": "d41c72820415f4e8",
+        "clip_path": "d41c72820415f4e8.mp4",
+        "pose_file": "d41c72820415f4e8.txt",
+        "caption": "a dining room with hardwood floors and a chandelier."
+    },
+    {
+        "clip_name": "bc5a74179a33531d",
+        "clip_path": "bc5a74179a33531d.mp4",
+        "pose_file": "bc5a74179a33531d.txt",
+        "caption": "an aerial view of a large white house on a grassy lawn."
+    },
+    {
+        "clip_name": "97f8269d9eea258a",
+        "clip_path": "97f8269d9eea258a.mp4",
+        "pose_file": "97f8269d9eea258a.txt",
+        "caption": "a bedroom with a bed, window and ceiling fan."
+    },
+    {
+        "clip_name": "93cdb06189b66d39",
+        "clip_path": "93cdb06189b66d39.mp4",
+        "pose_file": "93cdb06189b66d39.txt",
+        "caption": "a kitchen with white cabinets and a ceiling fan."
+    },
+    {
+        "clip_name": "9768e6c4103bbb4a",
+        "clip_path": "9768e6c4103bbb4a.mp4",
+        "pose_file": "9768e6c4103bbb4a.txt",
+        "caption": "a staircase leading up to a dining room."
+    },
+    {
+        "clip_name": "2341162bce213f2e",
+        "clip_path": "2341162bce213f2e.mp4",
+        "pose_file": "2341162bce213f2e.txt",
+        "caption": "a bathroom with a toilet, sink and shower curtains."
+    },
+    {
+        "clip_name": "aa0d4fd4384b1f2c",
+        "clip_path": "aa0d4fd4384b1f2c.mp4",
+        "pose_file": "aa0d4fd4384b1f2c.txt",
+        "caption": "a pool table in the middle of a living room."
+    },
+    {
+        "clip_name": "9e784b792f4aa092",
+        "clip_path": "9e784b792f4aa092.mp4",
+        "pose_file": "9e784b792f4aa092.txt",
+        "caption": "an aerial view of a large house surrounded by trees."
+    }
+]
