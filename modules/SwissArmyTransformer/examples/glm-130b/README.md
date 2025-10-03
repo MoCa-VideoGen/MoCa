@@ -1,1 +1,0 @@
-Please refer to GLM-130B's [official repo](https://github.com/THUDM/GLM-130B) for details.
