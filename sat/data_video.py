@@ -320,15 +320,15 @@ def process_fn_video(src, image_size, fps, num_frames, skip_frms_num=0.0, txt_ke
         yield item
 
 def completely_random_sampling(start, end, num_frames):
-    """在start和end之间完全随机采样"""
+  
     available_frames = end - start
     if num_frames >= available_frames:
-        # 如果需要的帧数多于可用帧数，返回所有帧
+       
         return np.arange(start, end)
     else:
-        # 随机选择不重复的帧索引
+     
         indices = np.random.choice(range(start, end), size=num_frames, replace=False)
-        return np.sort(indices)  # 按时间顺序排序
+        return np.sort(indices) 
 
 class VideoDataset(MetaDistributedWebDataset):
     def __init__(
@@ -484,12 +484,12 @@ class SFTDataset(Dataset):
             
             # print(f"get_data")
             vr = VideoReader(uri=video_path, height=-1, width=-1)
-            first_frame = vr[0]  # 获取第一帧
+            first_frame = vr[0]  
             original_pose_height, original_pose_width = first_frame.shape[:2]  # (H, W, C) 或 (H, W)
             image_height =video_size[0]
             image_width =video_size[1]
 
-            actual_fps = vr.get_avg_fps() #实际帧率：8
+            actual_fps = vr.get_avg_fps() 
             ori_vlen = len(vr)   #49
 
             #camera_traj_path = os.path.join(root, filename.replace(".mp4", ".json")).replace("videos", "camera_traj")
@@ -531,29 +531,7 @@ class SFTDataset(Dataset):
                     tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
                     selected_frame_indices = indices
                     tensor_frms = tensor_frms[torch.tensor((indices-start).tolist())]  #[61,720,,]
-                else:
-                    if ori_vlen >= max_num_frames:
-                        # 直接取前 max_num_frames 帧
-                        num_frames = max_num_frames
-                        #start = 0
-                        start = random.randint(0, ori_vlen - max_num_frames)
-                        end = max_num_frames + start
-                        indices = np.arange(start, end).astype(int)
-                        
-                        temp_frms = vr.get_batch(np.arange(start, end))
-                        assert temp_frms is not None
-                        tensor_frms = torch.from_numpy(temp_frms) if type(temp_frms) is not torch.Tensor else temp_frms
-                        selected_frame_indices = indices
-                        tensor_frms = tensor_frms[torch.tensor((indices-start).tolist())]
-                    else:
-                        return None
-                        def nearest_smaller_4k_plus_1(n):
-                            remainder = n % 4
-                            if remainder == 0:
-                                return n - 3
-                            else:
-                                return n - remainder + 1
-
+               
                         start = int(skip_frms_num)
                         end = int(ori_vlen - skip_frms_num)
                         num_frames = nearest_smaller_4k_plus_1(
