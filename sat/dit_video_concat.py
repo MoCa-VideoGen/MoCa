@@ -960,7 +960,7 @@ class AdaLNMixin(BaseMixin):
             img_hidden_states = img_hidden_states + gate_mlp * img_mlp_output  # vision (b,(t n),d)
             text_hidden_states = text_hidden_states + text_gate_mlp * text_mlp_output  # language (b,n,d)
 
-            hidden_states = torch.cat((text_hidden_states, img_hidden_states), dim=1)  # (b,(n_t+t*n_i),d)
+            hidden_states = torch.cat((text_hidden_states, text_hidden_states), dim=1)  # (b,(n_t+t*n_i),d)
         
         
             return hidden_states,hidden_states_reference
