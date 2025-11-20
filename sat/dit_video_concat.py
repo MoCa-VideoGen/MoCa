@@ -36,30 +36,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 
-def save_attention_map(attn_vector, save_path, T=13, H=30, W=45, cmap='viridis', step_id=None, layer_id=None):
-   
-    attn_np = attn_vector.detach().cpu().float().numpy()
-
-   
-    attn_np = (attn_np - attn_np.min()) / (attn_np.max() - attn_np.min() + 1e-8)
-
-    fig, axes = plt.subplots(1, T, figsize=(T*2, 2))
-    for t in range(T):
-        axes[t].imshow(attn_np[t], cmap=cmap)
-        axes[t].axis('off')
-        axes[t].set_title(f"t={t}")
-    filename = ""
-    if step_id is not None:
-        filename += f"{step_id}step_"
-    if layer_id is not None:
-        filename += f"{layer_id}layer"
-    filename += ".jpg"
-    filepath = os.path.join(save_path, filename)
-
-    plt.tight_layout()
-    os.makedirs(os.path.dirname(save_path), exist_ok=True)
-    plt.savefig(filepath, dpi=300)
-    plt.close(fig)
 
 def visualize_features(tensor, save_dir, subfolder_name, step_id, layer_id):
     # Convert tensor to numpy array on CPU
@@ -550,106 +526,6 @@ class SwiGLUMixin(BaseMixin):
         x = origin.dense_4h_to_h(hidden)
         return x
 
-class WaveletTransform(nn.Module):
-    def __init__(self, levels=1, wavelet='haar'):
-        super().__init__()
-        self.levels = levels
-       
-        self.register_buffer('dec_lo_h', torch.tensor([1.0, 1.0]).view(1, 1, -1) / 2**0.5) 
-        self.register_buffer('dec_hi_h', torch.tensor([-1.0, 1.0]).view(1, 1, -1) / 2**0.5)
-        self.register_buffer('dec_lo_v', torch.tensor([1.0, 1.0]).view(1, 1, 1, 2) / 2**0.5) 
-        self.register_buffer('dec_hi_v', torch.tensor([-1.0, 1.0]).view(1, 1, 1, 2) / 2**0.5) 
-        
-    def _pad_to_even(self, x: torch.Tensor) -> torch.Tensor:
-        h_pad = x.size(2) % 2
-        w_pad = x.size(3) % 2
-        return F.pad(x, (0, w_pad, 0, h_pad), mode='reflect')
-
-    def _dwt_2d(self, x: torch.Tensor) -> tuple:
-        lo_row = F.conv2d(x, self.dec_lo_h.unsqueeze(1), stride=(1, 2), padding=(0, 1))
-        hi_row = F.conv2d(x, self.dec_hi_h.unsqueeze(1), stride=(1, 2), padding=(0, 1))
-        
-        
-        ll = F.conv2d(lo_row.permute(0, 1, 3, 2).contiguous(), self.dec_lo_v, stride=(1, 2), padding=(0, 1)).permute(0, 1, 3, 2).contiguous() 
-        lh = F.conv2d(lo_row.permute(0, 1, 3, 2).contiguous(), self.dec_hi_v, stride=(1, 2), padding=(0, 1)).permute(0, 1, 3, 2).contiguous() 
-        hl = F.conv2d(hi_row.permute(0, 1, 3, 2).contiguous(), self.dec_lo_v, stride=(1, 2), padding=(0, 1)).permute(0, 1, 3, 2).contiguous() 
-        hh = F.conv2d(hi_row.permute(0, 1, 3, 2).contiguous(), self.dec_hi_v, stride=(1, 2), padding=(0, 1)).permute(0, 1, 3, 2).contiguous() 
-        
-        return ll, (lh, hl, hh)
-    
-    def _idwt_2d(self, coeffs: tuple) -> torch.Tensor:
-        lh, hl, hh = coeffs
-        lo_row = F.conv_transpose2d(lh.permute(0, 1, 3, 2).contiguous(), self.dec_hi_v, stride=(1, 2), padding=(0, 1)).permute(0, 1, 3, 2).contiguous() + \
-                 F.conv_transpose2d(hl.permute(0, 1, 3, 2).contiguous(), self.dec_lo_v, stride=(1, 2), padding=(0, 1)).permute(0, 1, 3, 2).contiguous()
-        hi_row = F.conv_transpose2d(hh.permute(0, 1, 3, 2).contiguous(), self.dec_hi_v, stride=(1, 2), padding=(0, 1)).permute(0, 1, 3, 2).contiguous() + \
-                 F.conv_transpose2d(hl.permute(0, 1, 3, 2).contiguous(), self.dec_lo_v, stride=(1, 2), padding=(0, 1)).permute(0, 1, 3, 2).contiguous() 
-        
-        x = (F.conv_transpose2d(lo_row, self.dec_lo_h.unsqueeze(1), stride=(1, 2), padding=(0, 1)) + \
-            F.conv_transpose2d(hi_row, self.dec_hi_h.unsqueeze(1), stride=(1, 2), padding=(0, 1))).contiguous() 
-        return x
-
-   
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-            x = x.float()  
-
-            max_val = torch.max(torch.abs(x))
-            scale_factor = max_val if max_val > 1.0 else 1.0
-            x = x / scale_factor
-
-          
-            B, THW, C = x.shape
-            T, H, W = 13, 30, 45
-            x = x.view(B, T, H, W, C).permute(0, 4, 1, 2, 3).contiguous()
-            x = x.reshape(B * C * T, 1, H, W).contiguous()
-            x = self._pad_to_even(x)
-
-            high_freq = torch.zeros_like(x)
-            ll = x
-            for _ in range(self.levels):
-                ll, (lh, hl, hh) = self._dwt_2d(ll)
-                high_freq += self._idwt_2d((lh, hl, hh))
-
-            high_freq = high_freq[:, :, :H, :W]
-            high_freq = high_freq.view(B, C, T, H, W).permute(0, 2, 3, 4, 1).contiguous()
-            result = high_freq.reshape(B, THW, C)
-            return result * scale_factor
-    
-class Modulation(nn.Module):
-    def __init__(self, in_channels, out_channels, height, width):
-        super(Modulation, self).__init__()
-        self.height = height
-        self.width = width
-        
-      
-        self.conv = nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=1, padding=0)
-        self.sigmoid = nn.Sigmoid()
-       
-
-        
-
-    def forward(self, Zraw, Zcondition):
-        B, HW, C = Zraw.shape
-        assert Zcondition.shape == Zraw.shape, "Error: Zraw and Zcondition must have the same shape"
-        
-        T = HW // (self.height * self.width)
-        print(f"Zraw shape is {Zraw.shape},Zcondition shape is {Zcondition.shape}")
-        
-        Zconcat = torch.cat((Zraw, Zcondition), dim=-1)  # [B, T*H*W, 2*C]
-        print(f"Zconcat shape is {Zconcat.shape}")
-       
-        Zconcat = Zconcat.view(B, T, self.height, self.width, 2*C)
-        print(f"Zconcat shape is {Zconcat.shape}")
-        Zconcat = Zconcat.permute(0, 4, 1, 2, 3).contiguous()
-
-        alpha = self.conv(Zconcat.view(B * T, 2*C, self.height, self.width).contiguous())  # [B*T, C, H, W]
-        alpha = self.sigmoid(alpha)  # [B*T, C, H, W]
-   
-        alpha = alpha.view(B, T, self.height, self.width, C).contiguous() 
-        alpha = alpha.permute(0, 2, 3, 1, 4).contiguous().reshape(B, HW, C)
-
-        zblend = alpha * Zraw  + (1 - alpha) * Zcondition 
-
-        return zblend
 
 class High_Freq_CrossAttn(nn.Module): 
     def __init__(
