@@ -452,8 +452,8 @@ def sampling_main(args, model_cls):
                 
                 if len(poses) < 2*49: 
                     continue
-                poses = poses[:2*49:2]
-                #poses = poses[:49]
+              
+               
                 print(f"poses shape is{len(poses)}")
                 cam_params = [[float(x) for x in pose] for pose in poses]
                 cam_params = [Camera(cam_param) for cam_param in cam_params]
@@ -464,7 +464,7 @@ def sampling_main(args, model_cls):
                 image_height = 480
                 video_path = os.path.join("./realestate10K/ref_video_49",clip_path)
                 if not os.path.isfile(video_path):
-                    video_path = os.path.join("./realestate10k/zhongji/train/videos",clip_path)  
+                    video_path = os.path.join("./realestate10k/train/videos",clip_path)  
                 cap = cv2.VideoCapture(video_path)
                 original_pose_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)) 
                 original_pose_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)) 
