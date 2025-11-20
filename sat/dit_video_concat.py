@@ -97,8 +97,7 @@ class SimpleTemporalAttention(nn.Module):
             x_flat,
             key_padding_mask=mask
         )[0]
-        
-        # 恢复形状
+    
         attended = attended.view(B, HW, T, C).permute(0, 2, 1, 3).contiguous()
         return attended.reshape(B, T*HW, C)
 
@@ -798,7 +797,7 @@ class AdaLNMixin(BaseMixin):
         ############################ Modulation Fusion End ######################
            
          
-            img_attention_input=img_attention_input.to(text_attention_input.dtype)
+            img_attention_input=img_hidden_states_fusion.to(text_attention_input.dtype)
             #attention_input = torch.cat((text_attention_input, img_attention_input), dim=1)  # (b,n_t+t*n_i,d)
             attention_input = torch.cat((text_attention_input, img_hidden_states_fusion), dim=1)  # (b,n_t+t*n_i,d)
         
@@ -979,7 +978,6 @@ class LightweightCameraEncoder(nn.Module):
         x = rearrange(x, 'b c f h w -> (b f) c h w')
         x = self.initial_unshuffle(x)
         x = self.encoder(x)
-        x = rearrange(x, '(b f) c h w -> b f c h w', f=num_frames)
         x = self.time_compress(x)
         x = x.permute(0, 2, 1, 3, 4) 
         return x
