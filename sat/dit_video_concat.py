@@ -1195,7 +1195,6 @@ class DiffusionTransformer(BaseModel):
         self.camera_encoder = self.camera_encoder.to(self.dtype)
        
         RT = RT.to(torch.bfloat16)
-        RT = self.camera_encoder(RT,49).to(torch.bfloat16)  #[B, 32, 13, 30, 45]
       
         kwargs["camera_traj"] = RT  
         # This is not use in inference
