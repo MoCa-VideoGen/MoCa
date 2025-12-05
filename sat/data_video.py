@@ -20,7 +20,7 @@ from torchvision.io.video import _align_audio_frames, _check_av_available, _read
 from torchvision.transforms import InterpolationMode
 from torchvision.transforms.functional import resize
 
-############################################加入 Plucker Embedding #################################
+
 def read_video(
     filename: str,
     start_pts: Union[float, Fraction] = 0,
@@ -504,7 +504,7 @@ class SFTDataset(Dataset):
             
             selected_frame_indices = None
             if (ori_vlen - skip_frms_num * 2) / actual_fps * fps > max_num_frames and actual_fps >= fps:
-                # 200         3                  30           8      49
+              
                 num_frames = max_num_frames
                 start = random.randint(skip_frms_num, ori_vlen - skip_frms_num - int(num_frames / fps * actual_fps)) #0
                 end = int(start + num_frames / fps * actual_fps) #end:0+49/8*30=180
@@ -566,7 +566,7 @@ class SFTDataset(Dataset):
      
             
             sample_wh_ratio = image_width / image_height
-            #print(f"img width is {image_width}, height is {image_height}")
+         
             pose_wh_ratio = original_pose_width / original_pose_height
             #print(f"pose width is {original_pose_width}, height is {original_pose_height}")
             if pose_wh_ratio > sample_wh_ratio:
@@ -591,21 +591,21 @@ class SFTDataset(Dataset):
             plucker_embedding = plucker_embedding[None].to(device)  # B V 6 H W
             plucker_embedding = rearrange(plucker_embedding, "b f c h w -> b c f h w")
             RT = plucker_embedding.squeeze(0) 
-            #print(f"RT after shape is {RT.shape}") [6,49,480,760]
+         
             
             item = {
                 "mp4": tensor_frms,
                 "txt": caption,
                 "num_frames": num_frames,
                 "fps": fps,
-                "camera_traj":RT,  #[49,18]
+                "camera_traj":RT,
             }
             return item
         except Exception as e:
             print(f"ERROR when reading video {video_path}, trying to read a valid one. ERROR msg: {e}")
             print("Detailed error trace:")
             import traceback
-            print(traceback.format_exc())  # 输出详细错误堆栈
+            print(traceback.format_exc()) 
             return None
 
     def __getitem__(self, index):
