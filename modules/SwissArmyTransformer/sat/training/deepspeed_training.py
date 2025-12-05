@@ -81,8 +81,8 @@ def training_main(args, model_cls, forward_step_function, create_dataset_functio
 
     # Build model
     if isinstance(model_cls, type):  #<class 'diffusion_video.SATVideoDiffusionEngine'>
-        #做
-        model = get_model(args, model_cls) #有做初始化
+        
+        model = get_model(args, model_cls)
     else:
         model = model_cls
         # for given model, make sure all the params are in the correct device, or the sync param will raise error
@@ -362,8 +362,7 @@ def train(model, optimizer, lr_scheduler,
 
 
 
-    # 或者如果你想完全冻结整个模块（包括所有类型的层）
-    #model.diffusion_model.traj_extractor.eval()
+  
 
     # Tracking loss.
     total_lm_loss = 0.0
@@ -536,125 +535,6 @@ def train_step(data_iterator, model, optimizer, lr_scheduler,
         
         backward_step(optimizer, model, lm_loss, args, timers)
        
-        '''
-        ########## Test ##########
-        if torch.distributed.get_rank() == 0:
-            print("=== 开始梯度分析 ===")
-            
-            # 1. 先检查损失值
-            print(f"Loss value: {lm_loss.item()}")
-            print(f"Loss is finite: {torch.isfinite(lm_loss).item()}")
-            
-            # 2. 检查参数状态
-            total_params = 0
-            trainable_params = 0
-            has_grad_params = 0
-            
-            for name, param in model.named_parameters():
-                total_params += 1
-                if param.requires_grad:
-                    trainable_params += 1
-                    if param.grad is not None:
-                        has_grad_params += 1
-                        grad_norm = param.grad.norm().item()
-                        grad_sum = param.grad.sum().item()
-                        has_nan = torch.isnan(param.grad).any().item()
-                        has_inf = torch.isinf(param.grad).any().item()
-                        
-                        #print(f"{name}: requires_grad=True, grad_norm={grad_norm:.10e}, sum={grad_sum:.10e}, NaN={has_nan}, Inf={has_inf}")
-                    else:
-                        pass
-                        #print(f"{name}: requires_grad=True, grad=None")
-                else:
-                    pass
-                    #print(f"{name}: requires_grad=False")
-            
-            print(f"\n总结: 总参数={total_params}, 可训练={trainable_params}, 有梯度={has_grad_params}")
-            
-            # 3. 如果没有梯度，进一步诊断
-            if has_grad_params == 0:
-                print("!!! 警告：没有参数有梯度 !!!")
-                
-                # 检查模型是否有任何可训练参数
-                any_trainable = any(p.requires_grad for p in model.parameters())
-                print(f"模型是否有可训练参数: {any_trainable}")
-                
-                # 检查DeepSpeed配置
-                if hasattr(model, 'optimizer'):
-                    print("DeepSpeed优化器存在")
-                else:
-                    print("DeepSpeed优化器不存在")
-
-        
-        # 检查梯度链是否完整连接到模型参数
-        if torch.distributed.get_rank() == 0:
-            print("=== 梯度链完整性检查 ===")
-            
-            # 方法1: 手动追踪到最底层
-            current_fn = lm_loss.grad_fn
-            depth = 0
-            max_depth = 100
-            
-            print("手动追踪梯度链:")
-            while current_fn is not None and depth < max_depth:
-                fn_type = type(current_fn).__name__
-                print(f"[{depth}] {fn_type}")
-                
-                # 检查是否是参数相关的梯度函数
-                if 'AccumulateGrad' in fn_type:
-                    print("!!! 找到参数梯度累积点 !!!")
-                    if hasattr(current_fn, 'variable'):
-                        param = current_fn.variable
-                        print(f"关联参数: shape={param.shape}, requires_grad={param.requires_grad}")
-                    break
-                
-                # 检查是否有next_functions
-                if hasattr(current_fn, 'next_functions'):
-                    next_functions = current_fn.next_functions
-                    if next_functions:
-                        # 取第一个非None的next_function
-                        for next_fn, _ in next_functions:
-                            if next_fn is not None:
-                                current_fn = next_fn
-                                break
-                        else:
-                            print("所有next_functions都是None，梯度链中断")
-                            break
-                    else:
-                        print("next_functions为空，梯度链中断")
-                        break
-                else:
-                    print("没有next_functions属性，梯度链中断")
-                    break
-                
-                depth += 1
-            
-                if depth >= max_depth:
-                    print(f"达到最大深度 {max_depth}，可能还需要更深的追踪")
-            
-   
-
-        if torch.distributed.get_rank() == 0:
-            for name, param in model.named_parameters():
-            # print(f"Parameter name: {name}, requires_grad: {param.requires_grad}")
-                # 如果参数有梯度，打印梯度信息
-                if param.grad is not None :
-                    print(f"step_id is {kwargs['step_id']},Gradient for {name}: {param.grad.sum()}")
-
-
-        for name, param in model.named_parameters():
-            if param.grad is not None:
-                if torch.isnan(param.grad).any() or torch.isinf(param.grad).any():
-                    print(f"NaN detected in gradient of {name}")
-
-  
-
-        for name, param in model.named_parameters():
-          
-            if param.grad is not None:
-                   print(f"Gradient for {name}: {param.grad.sum()}")
-        '''
-        #torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
         
         timers('backward').stop()
         if profiling_flag:
