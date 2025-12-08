@@ -41,23 +41,18 @@
     <strong>MoCa</strong>: Modeling Object Consistency For 3D <br> Camera Control In Video Generation
     </h1>
 
-
     <div style="text-align:center;">
       <img src="./static/html/image/teaser.png" width="85%" alt="teaser_figure">
     </div>
     <p style="font-weight: 400" class="has-text-justified">
       <b>Demonstration of Teaser.</b>  This figure outlines the core requirements for high-quality camera-controllable video generation: <b> <i style="color: rgb(74, 151, 202);"> consistent object view, appearance, and motion</i></b>. The foreground object should remain fully visible and retain its structure during camera movement, with stable texture and natural motion. Existing methods often fail to satisfy all three aspects simultaneously, whereas our <b>Moca</b> demonstrates strong performance across all criteria.
     </p>
-
   </div>
-
 
   <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Abstract</p>
     <p style="font-weight: 400" class="has-text-justified">Camera control is important in text-to-video generation for achieving realistic scene navigation and view synthesis. This control is defined by parameters that describe movement through 3D space, thereby introducing a 3D consistency into the generation process. A core challenge for existing methods is achieving 3D consistency within the 2D pixel domain. Strategies that directly integrate camera conditions into text-to-video models often produce artifacts, while those relying on explicit 3D supervision face generalization issues. Both limitations originate from the gap between the 2D pixel space and the underlying 3D world. The key insight is that the projection of a smooth 3D camera movement produces consistency in object view, appearance, and motion across 2D frames. Inspired by this insight, we propose <b>MoCa</b>, a dual-branch framework that bridges this gap by modeling object consistency to implicitly learn 3D relationships between camera and cene.To ensure view consistency, we design a Spatial-Temporal Camera encoder with Plücker embedding, which encodes camera trajectories into a geometrically grounded latent representation. For appearance consistency, we introduce a semantic guidance strategy that leverages persistent vision-language features to maintain object identity and texture across frames. To address motion consistency, we propose an object-aware motion disentanglement mechanism that separates object dynamics from global camera movement, ensuring precise camera control and natural object motion. Experiments show that MoCa achieves accurate camera control while preserving video quality, offering a practical and effective solution for camera-controllable video synthesis.</p>
   </div>
-
-
 
   <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Framework</p> <br>
@@ -70,11 +65,10 @@
       <b>Framework of MoCa.</b> The overview of MoCa that focus on accurate modeling object
       consistency to enhance camera-controlled video generation. To maintain view consistency, we utilize the Camera
       Condition Module with Plücker embedding to align camera rays with pixel-level visual representation. For
-      appearance consistency, a semantic guidance strategy employs ReferenceNet's vision-language features to stabilize
+      appearance consistency, a semantic guidance strategy employs ReferenceNet' s vision-language features to stabilize
       objects. Motion consistency is achieved by disentangling video motion into camera movement and object dynamics.
     </p>
   </div>
-
 
   <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Teaser Videos</p> <br>
@@ -85,16 +79,30 @@
         <img src="./static/html/teaser/2/1.png" alt="Image 2" style="width: 150px; height: auto; object-fit: contain;">
         <div style="display: flex; flex-direction: row; gap: 2px;">
           <div style="text-align: center;">
-            <video src="./static/html/teaser/2/2.mp4" autoplay muted loop playsinline style="width: 400px; height: auto;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/teaser/2/2.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 400px; height: auto;"
+            ></video>
             <p style="margin-top: 10px; font-size: 0.9em; font-weight:400; color: #080808;">Current Methods</p>
           </div>
           <div style="text-align: center;">
-            <video src="./static/html/teaser/2/3.mp4" autoplay muted loop playsinline style="width: 400px; height: auto;"></video>
-          
+            <video
+              class="lazy-video"
+              data-src="./static/html/teaser/2/3.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 400px; height: auto;"
+            ></video>
             <p style="margin-top: 10px; font-size: 0.9em; font-weight:400; color: rgb(74, 151, 202);">
               <b>MoCa</b>
             </p>
-
           </div>
         </div>
       </div>
@@ -106,11 +114,27 @@
         <img src="./static/html/teaser/1/teaser1.png" alt="Image 1" style="width: 150px; height: auto; object-fit: contain;">
         <div style="display: flex; flex-direction: row; gap: 2px;">
           <div style="text-align: center;">
-            <video src="./static/html/teaser/1/1.mp4" autoplay muted loop playsinline style="width: 400px; height: auto;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/teaser/1/1.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 400px; height: auto;"
+            ></video>
             <p style="margin-top: 10px; font-size: 0.9em; font-weight:400; color: #080808;">Current Methods</p>
           </div>
           <div style="text-align: center;">
-            <video src="./static/html/teaser/1/2.mp4" autoplay muted loop playsinline style="width: 400px; height: auto;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/teaser/1/2.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 400px; height: auto;"
+            ></video>
              <p style="margin-top: 10px; font-size: 0.9em; font-weight:400; color: rgb(74, 151, 202);">
               <b>MoCa</b>
             </p>
@@ -125,11 +149,27 @@
         <img src="./static/html/teaser/3/teaser3.png" alt="Image 3" style="width: 150px; height: auto; object-fit: contain;">
         <div style="display: flex; flex-direction: row; gap: 2px;">
           <div style="text-align: center;">
-            <video src="./static/html/teaser/3/current.mp4" autoplay muted loop playsinline style="width: 400px; height: auto;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/teaser/3/current.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 400px; height: auto;"
+            ></video>
             <p style="margin-top: 10px; font-size: 0.9em; font-weight:400; color: #080808;">Current Methods</p>
           </div>
           <div style="text-align: center;">
-            <video src="./static/html/teaser/3/ours.mp4" autoplay muted loop playsinline style="width: 400px; height: auto;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/teaser/3/ours.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 400px; height: auto;"
+            ></video>
              <p style="margin-top: 10px; font-size: 0.9em; font-weight:400; color: rgb(74, 151, 202);">
               <b>MoCa</b>
             </p>
@@ -140,42 +180,69 @@
 
   </div>
 
-
-
-<div class="content">
+  <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">3D Understanding</p> <br>
 
       <div style="text-align:center; margin-bottom:1em;">
         <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px;">
             <img src="./static/html/3D/1/1.png" alt="Image 2" style="width: 130px; height: auto; object-fit: contain;">
-            <video src="./static/html/3D/1/plane.mp4" autoplay muted loop playsinline style="width: 220px; height: auto;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/3D/1/plane.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 220px; height: auto;"
+            ></video>
 
             <img src="./static/html/3D/2/2.png" alt="Image 2" style="width: 160px; height: auto; object-fit: contain;">
-            <video src="./static/html/3D/2/2.mp4" autoplay muted loop playsinline style="width: 220px; height: auto;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/3D/2/2.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 220px; height: auto;"
+            ></video>
          </div>
       </div>
       <div style="text-align:center; margin-bottom:1em;">
         <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px;">
             <img src="./static/html/3D/3/3.png" alt="Image 2" style="width: 130px; height: auto; object-fit: contain;">
-            <video src="./static/html/3D/3/3.mp4" autoplay muted loop playsinline style="width: 220px; height: auto;"></video>
-             <img src="./static/html/3D/4/4.png" alt="Image 2" style="width: 160px; height: auto; object-fit: contain;">
-            <video src="./static/html/3D/4/4.mp4" autoplay muted loop playsinline style="width: 220px; height: auto;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/3D/3/3.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 220px; height: auto;"
+            ></video>
+            <img src="./static/html/3D/4/4.png" alt="Image 2" style="width: 160px; height: auto; object-fit: contain;">
+            <video
+              class="lazy-video"
+              data-src="./static/html/3D/4/4.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 220px; height: auto;"
+            ></video>
         </div>
       </div>
-    <!-- 说明文字 -->
     <p style="font-weight: 400" class="has-text-justified">
       Our method effectively distinguishes between foreground objects and the background objects while maintaining smooth camera motion, demonstrating that our model successfully learns an implicit 3D relationship between the camera and the scene.
     </p>
-</div>
+  </div>
 
-<div class="content">
+  <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Comparison Results</p> <br>
 
     <div style="text-align:center; margin-bottom:2em;">
       <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px;">
-        <!-- 图片 -->
         <img src="./static/html/comparison/1/1.png" alt="Image 1" style="width: 140px; height: auto; object-fit: contain;">
-        <!-- 视频组 -->
         <div style="display: flex; gap: 2px;">
           <div style="display: flex; flex-direction: column; align-items: center;">
             <img src="./static/html/comparison/1/motionctrl.gif" alt="MotionCtrl 1" style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;">
@@ -184,19 +251,43 @@
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/1/camera.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/1/camera.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
             <p style="font-weight: 400;">
               CameraCtrl
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/1/ac3d.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/1/ac3d.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
             <p style="font-weight: 400;">
               AC3D
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/1/ours.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/1/ours.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
             <p style="font-weight: 400; color: rgb(74, 151, 202);">
               <b>MoCa</b>
             </p>
@@ -205,12 +296,9 @@
       </div>
     </div>
 
-
     <div style="text-align:center; margin-bottom:2em;">
       <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px;">
-        <!-- 图片 -->
         <img src="./static/html/comparison/2/2.png" alt="Image 2" style="width: 140px; height: auto; object-fit: contain;">
-        <!-- 视频组 -->
         <div style="display: flex; gap: 2px;">
           <div style="display: flex; flex-direction: column; align-items: center;">
             <img src="./static/html/comparison/2/motionctrl.gif" alt="MotionCtrl 2" style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;">
@@ -219,19 +307,43 @@
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/2/camera.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/2/camera.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
             <p style="font-weight: 400;">
               CameraCtrl
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/2/ac3d.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/2/ac3d.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
             <p style="font-weight: 400;">
               AC3D
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/2/ours.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/2/ours.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
              <p style="font-weight: 400; color: rgb(74, 151, 202);">
               <b>MoCa</b>
             </p>
@@ -240,12 +352,9 @@
       </div>
     </div>
 
-
     <div style="text-align:center; margin-bottom:2em;">
       <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px;">
-        <!-- 图片 -->
         <img src="./static/html/comparison/3/3.png" alt="Image 3" style="width: 140px; height: auto; object-fit: contain;">
-        <!-- 视频组 -->
         <div style="display: flex; gap: 2px;">
           <div style="display: flex; flex-direction: column; align-items: center;">
             <img src="./static/html/comparison/3/motionctrl.gif" alt="MotionCtrl 3" style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;">
@@ -254,19 +363,43 @@
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/3/camera.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/3/camera.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
             <p style="font-weight: 400;">
               CameraCtrl
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/3/ac3d.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/3/ac3d.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
             <p style="font-weight: 400;">
               AC3D
             </p>
           </div>
           <div style="display: flex; flex-direction: column; align-items: center;">
-            <video src="./static/html/comparison/3/ours.mp4" autoplay muted loop playsinline style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"></video>
+            <video
+              class="lazy-video"
+              data-src="./static/html/comparison/3/ours.mp4"
+              muted
+              loop
+              playsinline
+              preload="none"
+              style="width: 200px; height: 200px; object-fit: cover; margin-bottom: 5px;"
+            ></video>
              <p style="font-weight: 400; color: rgb(74, 151, 202);">
               <b>MoCa</b>
             </p>
@@ -275,139 +408,351 @@
       </div>
     </div>
 
-</div>
+  </div>
 
-
-<div class="content">
+  <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Visualization Results</p> <br>
     <span style="text-align: center;width: 100%;display: block;font-size: 25px;font-weight:600;">Static Scenes</span>
     <br>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/visualization/static/1.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/static/1.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/static/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/visualization/static/2.png" alt="Image B" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/static/2.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/static/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
       
       <img src="./static/html/visualization/static/3.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/static/3.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/static/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
     
       <img src="./static/html/visualization/static/4.png" alt="Image D" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/static/4.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/static/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
       
       <img src="./static/html/visualization/static/5.png" alt="Image E" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/static/5.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/static/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/visualization/static/6.png" alt="Image F" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/static/6.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/static/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
     <br>
     <span style="text-align: center;width: 100%;display: block;font-weight:600; font-size: 25px;">Dynamic Scenes</span>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/visualization/dynamic/1.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/dynamic/1.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/dynamic/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/visualization/dynamic/2.png" alt="Image B" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/dynamic/2.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/dynamic/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
       
       <img src="./static/html/visualization/dynamic/3.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/dynamic/3.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/dynamic/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
     
       <img src="./static/html/visualization/dynamic/4.png" alt="Image D" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/dynamic/4.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/dynamic/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/visualization/dynamic/5.png" alt="Image E" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/dynamic/5.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/dynamic/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/visualization/dynamic/6.png" alt="Image F" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/visualization/dynamic/6.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/visualization/dynamic/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
-</div>
+  </div>
 
-
-<div class="content">
+  <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Multi-Object Generation</p> <br>
     <span style="text-align: center;width: 100%;display: block;font-size: 25px; font-weight:600;">Single-Class</span><br>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/multi-objects/camera/1.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/video/1.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/video/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/multi-objects/camera/2.png" alt="Image B" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/video/2.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/video/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
       
       <img src="./static/html/multi-objects/camera/3.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/video/3.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/video/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
     
       <img src="./static/html/multi-objects/camera/6.png" alt="Image D" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/video/6.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/video/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/multi-objects/camera/5.png" alt="Image E" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/video/5.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/video/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/multi-objects/camera/4.png" alt="Image F" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/video/4.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/video/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
     <br>
     <span style="text-align: center;width: 100%;display: block;font-size: 25px; font-weight:600;">Multi-Class</span><br>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/multi-objects/camera/7.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/different-class/7.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/different-class/7.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
 
       <img src="./static/html/multi-objects/camera/8.png" alt="Image B" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/different-class/8.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/different-class/8.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
 
       <img src="./static/html/multi-objects/camera/9.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/multi-objects/different-class/9.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/multi-objects/different-class/9.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
     <p style="font-weight: 400" class="has-text-justified">
         For multi-object scenarios, our method is still able to maintain  multi-object consistency. This demonstrates that our high-frequency masking can reliably extract the structural boundaries of distinct objects based on their spatial localizations, even in complex scenes. In scenes with multiple objects of different classes, our method produces high-quality videos with stable and coherent temporal dynamics.
     </p>
-</div>
+  </div>
 
-
-<div class="content">
+  <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Complex Camera Generation</p> <br>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/complex_camera/camera/1.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/complex_camera/static/1.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/complex_camera/static/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/complex_camera/camera/2.png" alt="Image B" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/complex_camera/static/2.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/complex_camera/static/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
       
       <img src="./static/html/complex_camera/camera/3.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/complex_camera/static/3.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/complex_camera/static/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
     
       <img src="./static/html/complex_camera/camera/4.png" alt="Image D" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/complex_camera/dynamic/4.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/complex_camera/dynamic/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/complex_camera/camera/5.png" alt="Image E" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/complex_camera/dynamic/5.mp4" autoplay muted loop playsinline style="width: 200px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/complex_camera/dynamic/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     
       <img src="./static/html/complex_camera/camera/6.png" alt="Image F" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/complex_camera/dynamic/6.mp4" autoplay muted loop playsinline style="width: 200px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/complex_camera/dynamic/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 200px; height: auto;"
+      ></video>
     </div>
-</div>
+  </div>
 
   <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Conflicting Motion</p> <br>
-    <!-- 标题行 -->
     <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 15px;">
       <div style="width: 100px; text-align: center; font-weight: bold; color: #666;"></div>
       <div style="width: 180px; text-align: center; font-weight: bold; color: #666;">AC3D</div>
@@ -419,46 +764,136 @@
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/opposite-direction/camera/1.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/opposite-direction/ac3d/1.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/opposite-direction/ours/1.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ac3d/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ours/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
 
       <img src="./static/html/opposite-direction/camera/6.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/opposite-direction/ac3d/6.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/opposite-direction/ours/6.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-
-      
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ac3d/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ours/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/opposite-direction/camera/2.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/opposite-direction/ac3d/2.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/opposite-direction/ours/2.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ac3d/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ours/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
 
       <img src="./static/html/opposite-direction/camera/3.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/opposite-direction/ac3d/3.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/opposite-direction/ours/3.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-    
-      
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ac3d/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ours/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/opposite-direction/camera/5.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/opposite-direction/ac3d/5.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/opposite-direction/ours/5.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ac3d/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ours/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
 
       <img src="./static/html/opposite-direction/camera/4.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/opposite-direction/ac3d/4.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/opposite-direction/ours/4.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ac3d/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/opposite-direction/ours/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
     <p style="font-weight: 400"class="has-text-justified">
       Users can explicitly specify object motion (e.g., direction, action) through text prompts, while independently controlling the camera via trajectory inputs. This demonstrates effective disentanglement of object and camera movements.
     </p>
   </div>
 
-
   <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Comparison Results with Baseline</p>
-    <!-- 标题行 -->
     <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 15px;">
       <div style="width: 100px; text-align: center; font-weight: bold; color: #666;"></div>
       <div style="width: 180px; text-align: center; font-weight: bold; color: #666;">Baseline</div>
@@ -470,42 +905,133 @@
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-baseline/camera/1.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-baseline/baseline/1.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-baseline/ours/1.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/baseline/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/ours/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     
       <img src="./static/html/comparison-of-baseline/camera/2.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-baseline/baseline/2.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-baseline/ours/2.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/baseline/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/ours/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-baseline/camera/6.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-baseline/baseline/6.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-baseline/ours/6.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/baseline/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/ours/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     
       <img src="./static/html/comparison-of-baseline/camera/4.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-baseline/baseline/4.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-baseline/ours/4.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/baseline/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/ours/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
      <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-baseline/camera/5.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-baseline/baseline/5.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-baseline/ours/5.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/baseline/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/ours/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
 
       <img src="./static/html/comparison-of-baseline/camera/3.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-baseline/baseline/3.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-baseline/ours/3.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/baseline/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-baseline/ours/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
-   
   </div>
-
-
 
   <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Comparison Results with VD3D</p> <br>
-    <!-- 标题行 -->
     <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 15px;">
       <div style="width: 100px; text-align: center; font-weight: bold; color: #666;"></div>
       <div style="width: 180px; text-align: center; font-weight: bold; color: #666;">VD3D</div>
@@ -517,39 +1043,134 @@
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-vd3d/camera/4.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-vd3d/vd3d/4.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-vd3d/ours/4.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/vd3d/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/ours/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     
       <img src="./static/html/comparison-of-vd3d/camera/6.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-vd3d/vd3d/6.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-vd3d/ours/6.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/vd3d/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/ours/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-vd3d/camera/3.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-vd3d/vd3d/3.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-vd3d/ours/3.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/vd3d/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/ours/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     
       <img src="./static/html/comparison-of-vd3d/camera/5.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-vd3d/vd3d/5.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-vd3d/ours/5.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>      
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/vd3d/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/ours/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>      
     </div>
      <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-vd3d/camera/2.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-vd3d/vd3d/2.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-vd3d/ours/2.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/vd3d/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/ours/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
 
       <img src="./static/html/comparison-of-vd3d/camera/1.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-vd3d/vd3d/1.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-vd3d/ours/1.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/vd3d/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-vd3d/ours/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
 
   </div>
 
   <div class="content">
     <p style="text-align:center; font-size: 2em; font-weight: bold" class="sansserif">Comparison Results with ViewCrafter</p> <br>
-    <!-- 标题行 -->
     <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 15px;">
       <div style="width: 100px; text-align: center; font-weight: bold; color: #666;"></div>
       <div style="width: 180px; text-align: center; font-weight: bold; color: #666;">ViewCrafter</div>
@@ -561,40 +1182,178 @@
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-viewcrafter/camera/6.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-viewcrafter/viewcrafter/6.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-viewcrafter/ours/6.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/viewcrafter/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/ours/6.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
       
       <img src="./static/html/comparison-of-viewcrafter/camera/1.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-viewcrafter/viewcrafter/1.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-viewcrafter/ours/1.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-
-     
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/viewcrafter/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/ours/1.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-viewcrafter/camera/5.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-viewcrafter/viewcrafter/5.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-viewcrafter/ours/5.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/viewcrafter/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/ours/5.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     
       <img src="./static/html/comparison-of-viewcrafter/camera/2.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-viewcrafter/viewcrafter/2.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-viewcrafter/ours/2.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>      
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/viewcrafter/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/ours/2.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>      
     </div>
     <div
       style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 2px; background-color: #fff; padding: 10px; ">
       <img src="./static/html/comparison-of-viewcrafter/camera/3.png" alt="Image A" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-viewcrafter/viewcrafter/3.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
-      <video src="./static/html/comparison-of-viewcrafter/ours/3.mp4" autoplay muted loop playsinline style="width: 180px; height: auto; "></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/viewcrafter/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/ours/3.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     
       <img src="./static/html/comparison-of-viewcrafter/camera/4.png" alt="Image C" style="width: 100px; height: auto; object-fit: contain; ">
-      <video src="./static/html/comparison-of-viewcrafter/viewcrafter/4.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
-      <video src="./static/html/comparison-of-viewcrafter/ours/4.mp4" autoplay muted loop playsinline style="width: 180px; height: auto;"></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/viewcrafter/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
+      <video
+        class="lazy-video"
+        data-src="./static/html/comparison-of-viewcrafter/ours/4.mp4"
+        muted
+        loop
+        playsinline
+        preload="none"
+        style="width: 180px; height: auto;"
+      ></video>
     </div>
-  
   </div>
 
+  <!-- 懒加载脚本 -->
+  <script>
+    function loadVideo(video) {
+      if (video.dataset.src && !video.dataset.loaded) {
+        video.src = video.dataset.src;
+        video.dataset.loaded = "true";
+        video.load();
+        video.play().catch(function (e) {
+          // 某些浏览器可能会拦截自动播放，忽略即可
+          console.log("Autoplay blocked:", e);
+        });
+      }
+    }
 
+    document.addEventListener("DOMContentLoaded", function () {
+      var videos = document.querySelectorAll("video.lazy-video");
 
+      if ("IntersectionObserver" in window) {
+        var observer = new IntersectionObserver(
+          function (entries, obs) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                var video = entry.target;
+                loadVideo(video);
+                obs.unobserve(video);
+              }
+            });
+          },
+          {
+            root: null,
+            rootMargin: "200px 0px",
+            threshold: 0.1
+          }
+        );
+
+        videos.forEach(function (video) {
+          observer.observe(video);
+        });
+      } else {
+        // 不支持 IntersectionObserver 的老浏览器：一次性全部加载
+        videos.forEach(function (video) {
+          loadVideo(video);
+        });
+      }
+    });
+  </script>
 
 </body>
 </html>
+
