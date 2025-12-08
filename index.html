@@ -1306,53 +1306,66 @@
       ></video>
     </div>
   </div>
-
-  <!-- 懒加载脚本 -->
   <script>
-    function loadVideo(video) {
-      if (video.dataset.src && !video.dataset.loaded) {
+   
+    function ensureLoaded(video) {
+      if (!video.dataset.src) return;
+
+      if (!video.dataset.loaded) {
         video.src = video.dataset.src;
         video.dataset.loaded = "true";
+      
+        video.preload = "auto";
         video.load();
-        video.play().catch(function (e) {
-          // 某些浏览器可能会拦截自动播放，忽略即可
-          console.log("Autoplay blocked:", e);
-        });
       }
     }
 
     document.addEventListener("DOMContentLoaded", function () {
-      var videos = document.querySelectorAll("video.lazy-video");
+      const videos = document.querySelectorAll("video.lazy-video");
 
-      if ("IntersectionObserver" in window) {
-        var observer = new IntersectionObserver(
-          function (entries, obs) {
-            entries.forEach(function (entry) {
-              if (entry.isIntersecting) {
-                var video = entry.target;
-                loadVideo(video);
-                obs.unobserve(video);
-              }
-            });
-          },
-          {
-            root: null,
-            rootMargin: "200px 0px",
-            threshold: 0.1
-          }
-        );
-
+    
+      if (!("IntersectionObserver" in window)) {
         videos.forEach(function (video) {
-          observer.observe(video);
+          ensureLoaded(video);
         });
-      } else {
-        // 不支持 IntersectionObserver 的老浏览器：一次性全部加载
-        videos.forEach(function (video) {
-          loadVideo(video);
-        });
+        return;
       }
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            const video = entry.target;
+
+            if (entry.isIntersecting) {
+             
+              ensureLoaded(video);
+
+              video.play().catch((err) => {
+               
+                console.log("Autoplay blocked:", err);
+              });
+            } else {
+            
+              if (!video.paused) {
+                video.pause();
+              }
+            }
+          });
+        },
+        {
+          root: null,       
+          rootMargin: "0px",
+          threshold: 0.3     
+        }
+      );
+
+      videos.forEach((video) => {
+        observer.observe(video);
+      });
     });
   </script>
+
+        
 
 </body>
 </html>
